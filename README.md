@@ -8,13 +8,13 @@ At the end of this tutorial you will be able to use any other social provider in
 ### What is covered
 Everything is covered there so new Laravel developers can grasp it quickly. I am following simple plan while I am developing:
 
-  - Creating views for application
-  - Creating migrations and models related to users and roles
-  - User seeder with some dummy users
-  - Middleware for administrator and user roles
-  - Routes and AuthController
-  - Creating table and model for Social logins
-  - Creating Social Logic
+  - [Creating views for application]
+  - [Creating migrations and models related to users and roles]
+  - [User seeder with some dummy users]
+  - [Middleware for administrator and user roles]
+  - [Routes and AuthController]
+  - [Creating table and model for Social logins]
+  - [Creating Social Logic]
 
 This plan is not strict and if you are familiar with something you may just skip that part.
 
