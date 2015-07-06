@@ -64,7 +64,7 @@
         ]) !!}
 
 
-        <label for="inputPasswordConfirm" class="sr-only">Confirm Password</label>
+        <label for="inputPasswordConfirm" class="sr-only has-warning">Confirm Password</label>
         {!! Form::password('password_confirmation', [
             'class'                         => 'form-control',
             'placeholder'                   => 'Password confirmation',
@@ -94,9 +94,7 @@
     <script type="text/javascript">
         window.ParsleyConfig = {
             errorsWrapper: '<div></div>',
-            errorTemplate: '<div class="alert alert-danger parsley" role="alert"></div>',
-            errorClass:    'invalid',
-            successClass:  'valid'
+            errorTemplate: '<div class="alert alert-danger parsley" role="alert"></div>'
         };
     </script>
 

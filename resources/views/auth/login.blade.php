@@ -61,9 +61,7 @@
     <script type="text/javascript">
         window.ParsleyConfig = {
             errorsWrapper: '<div></div>',
-            errorTemplate: '<div class="alert alert-danger parsley" role="alert"></div>',
-            errorClass:    'invalid',
-            successClass:  'valid'
+            errorTemplate: '<div class="alert alert-danger parsley" role="alert"></div>'
         };
     </script>
 
