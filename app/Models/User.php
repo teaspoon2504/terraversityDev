@@ -36,7 +36,8 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         'last_name'             => 'required',
         'email'                 => 'required|email|unique:users',
         'password'              => 'required|min:6|max:20',
-        'password_confirmation' => 'required|same:password'
+        'password_confirmation' => 'required|same:password',
+        'g-recaptcha-response'  => 'required'
     ];
 
     public static $messages = [
@@ -46,7 +47,8 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         'email.email'           => 'Email is invalid',
         'password.required'     => 'Password is required',
         'password.min'          => 'Password needs to have at least 6 characters',
-        'password.max'          => 'Password maximum length is 20 characters'
+        'password.max'          => 'Password maximum length is 20 characters',
+        'g-recaptcha-response.required' => 'Captcha is required'
     ];
 
     public function roles()

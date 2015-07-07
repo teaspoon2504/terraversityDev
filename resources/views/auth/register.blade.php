@@ -76,6 +76,7 @@
             'data-parsley-equalto-message'  => 'Not same as Password',
         ]) !!}
 
+        <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>
 
         <button class="btn btn-lg btn-primary btn-block register-btn" type="submit">Register</button>
 
@@ -99,5 +100,7 @@
     </script>
 
     {!! HTML::script('/assets/plugins/parsley.min.js') !!}
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 @stop

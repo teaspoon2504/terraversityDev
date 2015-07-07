@@ -8,8 +8,11 @@ use App\Models\Social;
 use App\Models\Role;
 use Input, Validator, Auth;
 use Laravel\Socialite\Facades\Socialite;
+use App\Traits\CaptchaTrait;
 
 class AuthController extends Controller {
+
+    use CaptchaTrait;
 
     protected $auth;
 
@@ -81,6 +84,13 @@ class AuthController extends Controller {
         {
             return redirect()->back()
                 ->withErrors($validator)
+                ->withInput();
+        }
+
+        if($this->captchaCheck() == false)
+        {
+            return redirect()->back()
+                ->withErrors(['Wrong Captcha'])
                 ->withInput();
         }
 
