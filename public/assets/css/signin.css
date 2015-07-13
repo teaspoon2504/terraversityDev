@@ -54,3 +54,11 @@
     background-color: #00c7fb;
     border-color: #00c7fb;
 }
+.google{
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+.google:hover{
+    background-color: #42A5F5;
+    border-color:#42A5F5;
+}

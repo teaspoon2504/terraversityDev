@@ -61,3 +61,11 @@
 .g-recaptcha{
     margin-top:10px;
 }
+.google{
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+.google:hover{
+    background-color: #42A5F5;
+    border-color:#42A5F5;
+}

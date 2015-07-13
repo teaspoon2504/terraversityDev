@@ -107,7 +107,6 @@ class AuthController extends Controller {
             ->with('status', 'success')
             ->with('message', 'You are registered successfully. Please login.');
 
-
     }
 
     public function getSocialRedirect( $provider )
@@ -123,6 +122,7 @@ class AuthController extends Controller {
 
     public function getSocialHandle( $provider )
     {
+
         $user = Socialite::driver( $provider )->user();
 
         $socialUser = null;
