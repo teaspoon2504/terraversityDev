@@ -53,9 +53,6 @@ route('social.redirect', ['provider' => 'twitter']);
 
 ###Todo's
 Project is not over, I will publish few more tutorials regarding this matter. You can expect:
-  - Client side input validation
-  - Email verification
-  - Implementing Captcha
   - Handling when user disallows social app access
   - Taking emails of users who sign-up over Twitter and other providers which don't share that data
   - User account actions, like change password, change email etc
