@@ -34,3 +34,11 @@ Route::group(['middleware' => 'auth:all'], function()
     $a = 'authenticated.';
     Route::get('/logout', ['as' => $a . 'logout', 'uses' => 'Auth\AuthController@getLogout']);
 });
+
+
+
+Route::get('home', 'UserController@getDashboard');
+
+Route::get('admin/kupon/buat', 'KuponController@create');
+
+Route::post('kupon/subscribe', 'KuponController@subscribe');

@@ -13,9 +13,9 @@ class UserSeeder extends Seeder{
         $userRole = Role::whereName('user')->first();
 
         $user = User::create(array(
-            'first_name'    => 'John',
-            'last_name'     => 'Doe',
-            'email'         => 'j.doe@codingo.me',
+            'first_name'    => 'Admin',
+            'last_name'     => 'Terra',
+            'email'         => 'eduterrajogja@terraversity.com',
             'password'      => Hash::make('password')
         ));
         $user->assignRole($adminRole);
