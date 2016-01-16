@@ -37,7 +37,7 @@ Route::group(['middleware' => 'auth:all'], function()
 
 
 
-Route::get('home', 'UserController@getDashboard');
+
 
 Route::get('admin/kupon/buat', 'KuponController@create');
 

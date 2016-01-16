@@ -17,6 +17,7 @@
 
     <!-- Custom styles for this template -->
     {!! HTML::style('/assets/css/navbar-static-top.css') !!}
+    {!! HTML::style('/assets/css/custom.css') !!}
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -51,6 +52,7 @@
                 <li><a href="{{ route('auth.login') }}">Login</a></li>
                 <li><a href="{{ route('auth.register') }}">Register</a></li>
                 @else
+                <li><img src="{{Auth::user()->profile_picture}}" class="tetap"></li>
                 <li><a href="#">{{ Auth::user()->first_name }}</a></li>
                 <li><a href="{{ route('authenticated.logout') }}">Logout</a></li>
                 @endif

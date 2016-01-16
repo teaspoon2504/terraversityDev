@@ -19,8 +19,6 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique()->nullable();
             $table->string('password', 60)->nullable();
 
-            $table->string('name');
-            $table->string('idsocial');
             $table->string('profile_picture');
             $table->integer('subscribed');
             $table->date('subscribtion_date');

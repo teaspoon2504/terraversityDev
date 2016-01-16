@@ -10,14 +10,11 @@ class UserController extends Controller {
 
     public function getHome()
     {
-        return view('panels.user.home');
+               // return view('panels.user.home');
+
+                $user=\Auth::user();
+		        $kupons=\App\Kupon::all();
+		        return view('panels.user.home')->withUser($user)->withKupons($kupons);
     }
 
-    public function getDashboard(){
-        $user=\Auth::user();
-        $kupons=\App\Kupon::all();
-        return view('user.dashboard')->withUser($user)->withKupons($kupons);
-
-        //
-    }
 }

@@ -158,6 +158,7 @@ class AuthController extends Controller {
                 $name = explode(' ', $user->name);
                 $newSocialUser->first_name         = $name[0];
                 $newSocialUser->last_name          = $name[1];
+                $newSocialUser->profile_picture    = $user->getAvatar();
                 $newSocialUser->save();
 
                 $socialData = new Social;

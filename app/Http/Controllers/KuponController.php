@@ -29,7 +29,7 @@ class KuponController extends Controller
         $kupon=New \App\Kupon();
         $kupon->kode=$this->generateRandomString(10); 
         $kupon->save();
-        return redirect('home');
+        return view('user.dashboard');
     }
 
 

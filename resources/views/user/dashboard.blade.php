@@ -13,11 +13,11 @@
 @endif
 
 
-@if (!Auth::user()->subscribed == 1)
+@if (!Auth::user()->subscribed == 0)
  Konten super rahasia
 
-@elseif ($user->email == 'eduterrajogja@gmail.com')
-	@foreach ($kupons as $kupon)
+@elseif (Auth::user()->email == 'eduterrajogja@terraversity.com')
+	@foreach (App\Kupon::all() as $kupon)
 		{{ $kupon->kode }} <br>
 	@endforeach
 	<a href="/admin/kupon/buat">buat kupon</a>

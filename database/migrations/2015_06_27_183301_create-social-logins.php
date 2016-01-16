@@ -18,6 +18,8 @@ class CreateSocialLogins extends Migration
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('provider', 32);
             $table->text('social_id');
+            
+           
             $table->timestamps();
         });
     }

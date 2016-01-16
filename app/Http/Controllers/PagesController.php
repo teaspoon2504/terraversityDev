@@ -4,6 +4,8 @@ class PagesController extends Controller {
 
     public function getHome()
     {
-        return view('pages.home');
+    	$user=\Auth::user();
+        $kupons=\App\Kupon::all();
+        return view('pages.home')->withUser($user)->withKupons($kupons);
     }
 }
