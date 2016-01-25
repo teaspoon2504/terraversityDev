@@ -9,21 +9,17 @@
 <h2>Admin Panel Home Page</h2>
 
 @if(!Auth::check())
- 
        selamat datang {{Auth::user()->first_name}}
        <img src="{{Auth::user()->profile_picture}}">
 @endif
 
 
-@if (!Auth::user()->subscribed == 0)
- Konten super rahasia
-
-@elseif (Auth::user()->email == 'eduterrajogja@terraversity.com')
+@if (Auth::user()->email == 'eduterrajogja@terraversity.com')
 	@foreach (App\Kupon::all() as $kupon)
 		{{ $kupon->kode }} <br>
 	@endforeach
 	<a href="/admin/kupon/buat">buat kupon</a>
-	
+
 @else
 <p>gak boleh lia</p>
 	<form action="kupon/subscribe" method="POST">

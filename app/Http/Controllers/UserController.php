@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -12,9 +12,15 @@ class UserController extends Controller {
     {
                // return view('panels.user.home');
 
-                $user=\Auth::user();
+            $user=\Auth::user();
 		        $kupons=\App\Kupon::all();
 		        return view('panels.user.home')->withUser($user)->withKupons($kupons);
+    }
+
+    public function getVoucher(){
+    $user=\Auth::user();
+		$kupons=\App\Kupon::all();
+		return view('panels.user.voucher')->withUser($user)->withKupons($kupons);
     }
 
 }

@@ -45,13 +45,13 @@
             </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block login-btn" type="submit">Sign in</button>
-        <p><a href="{{ route('auth.password') }}">Forgot password?</a></p>
+        <p><a href="{{ route('auth.password') }}">Forgot password?</a> Belum punya akun? <a href="{{ route('auth.register') }}">Daftar</a></p>
 
-        <p class="or-social">Or Use Social Login</p>
+        <p class="or-social">atau masuk menggunakan</p>
 
         <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-lg btn-primary btn-block facebook" type="submit">Facebook</a>
-        <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-lg btn-primary btn-block twitter" type="submit">Twitter</a>
-        <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-lg btn-primary btn-block google" type="submit">Google</a>
+        <!-- <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-lg btn-primary btn-block twitter" type="submit">Twitter</a> -->
+        <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-lg btn-primary btn-block google" type="submit">Google+</a>
 
         {!! Form::close() !!}
 

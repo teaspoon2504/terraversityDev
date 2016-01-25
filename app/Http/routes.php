@@ -2,6 +2,9 @@
 
 $s = 'public.';
 Route::get('/',         ['as' => $s . 'home',   'uses' => 'PagesController@getHome']);
+Route::get('/materiumum',         ['as' => $s . 'materi',   'uses' => 'PagesController@getMateri']);
+Route::get('/ipa',         ['as' => $s . 'materi',   'uses' => 'PagesController@getMateri']);
+Route::get('/matematika',         ['as' => $s . 'materi',   'uses' => 'PagesController@getMateri']);
 
 $a = 'auth.';
 Route::get('/login',            ['as' => $a . 'login',          'uses' => 'Auth\AuthController@getLogin']);
@@ -39,6 +42,11 @@ Route::group(['middleware' => 'auth:all'], function()
 
 
 
-Route::get('admin/kupon/buat', 'KuponController@create');
+Route::get('admin/home', 'AdminController@getHome');
+Route::get('user/materi', 'UserController@getHome');
 
-Route::post('kupon/subscribe', 'KuponController@subscribe');
+Route::get('admin/kupon/buat', 'KuponController@create');
+Route::post('user/kupon/subscribe', 'KuponController@subscribe');
+Route::get('admin/subscribe/delete', 'KuponController@backToGuest');
+
+Route::get('user/voucher', 'UserController@getVoucher');

@@ -29,8 +29,20 @@ class KuponController extends Controller
         $kupon=New \App\Kupon();
         $kupon->kode=$this->generateRandomString(10); 
         $kupon->save();
-        return view('user.dashboard');
+        return view('panels.admin.home');
     }
+
+
+public function backToGuest(Request $request){
+
+    if($user->subscribed=1){
+        $user->subscribed=0;
+        $user->save();
+        return view('panels.admin.home');
+    }else{
+        return 'User Adalah Guest';
+    }
+}
 
 
 private function generateRandomString($length = 10) {
@@ -51,12 +63,13 @@ private function generateRandomString($length = 10) {
             $user->subscribed=1;
             $user->save();
             $KuponAda->delete();
-            return redirect('home');
+            return view('panels.user.voucher');
         }else{
-            return 'kupon salah';
+            return view('panels.user.kuponsalah');
         }
 
     }
+
     /**
      * Store a newly created resource in storage.
      *

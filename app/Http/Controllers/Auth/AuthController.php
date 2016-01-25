@@ -54,7 +54,7 @@ class AuthController extends Controller {
         else
         {
             return redirect()->back()
-                ->with('message','Incorrect email or password')
+                ->with('message','Email atau password belum terdaftar')
                 ->with('status', 'danger')
                 ->withInput();
         }
@@ -105,7 +105,7 @@ class AuthController extends Controller {
 
         return redirect()->route('auth.login')
             ->with('status', 'success')
-            ->with('message', 'You are registered successfully. Please login.');
+            ->with('message', 'Akun anda telah terdaftar, silahkan log in');
 
     }
 

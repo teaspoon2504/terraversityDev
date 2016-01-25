@@ -55,10 +55,10 @@
     border-color: #00c7fb;
 }
 .google{
-    background-color: #2196F3;
-    border-color: #2196F3;
+    background-color: #f44336;
+    border-color: #f44336;
 }
 .google:hover{
-    background-color: #42A5F5;
-    border-color:#42A5F5;
+    background-color: #f44336;
+    border-color: #f44336;
 }
