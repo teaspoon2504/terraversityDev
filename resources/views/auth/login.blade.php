@@ -7,7 +7,6 @@
 
 @section('content')
 
-
         {!! Form::open(['url' => route('auth.login-post'), 'class' => 'form-signin', 'data-parsley-validate' ] ) !!}
 
 

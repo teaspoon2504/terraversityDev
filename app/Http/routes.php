@@ -2,9 +2,10 @@
 
 $s = 'public.';
 Route::get('/',         ['as' => $s . 'home',   'uses' => 'PagesController@getHome']);
-Route::get('/materiumum',         ['as' => $s . 'materi',   'uses' => 'PagesController@getMateri']);
-Route::get('/ipa',         ['as' => $s . 'materi',   'uses' => 'PagesController@getMateri']);
+Route::get('/ipa',         ['as' => $s . 'ipa',   'uses' => 'PagesController@getIpa']);
 Route::get('/matematika',         ['as' => $s . 'materi',   'uses' => 'PagesController@getMateri']);
+Route::get('/inggris',         ['as' => $s . 'inggris',   'uses' => 'PagesController@getInggris']);
+Route::get('/indo',         ['as' => $s . 'indo',   'uses' => 'PagesController@getIndonesia']);
 
 $a = 'auth.';
 Route::get('/login',            ['as' => $a . 'login',          'uses' => 'Auth\AuthController@getLogin']);

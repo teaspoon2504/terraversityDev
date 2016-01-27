@@ -5,7 +5,6 @@
 @stop
 
 @section('content')
-
         {!! Form::open(['url' => route('auth.reset-post', ['token' => $token ]), 'class' => 'form-signin' ] ) !!}
 
         @include('includes.errors')
@@ -24,5 +23,4 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Change</button>
 
         {!! Form::close() !!}
-
 @stop

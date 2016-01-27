@@ -15,5 +15,26 @@ class PagesController extends Controller {
       $kupons=\App\Kupon::all();
       return view('pages.materi')->withUser($user)->withKupons($kupons);
     }
+    public function getIpa()
+    {
+
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.materi')->withUser($user)->withKupons($kupons);
+    }
+    public function getInggris()
+    {
+
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.materi')->withUser($user)->withKupons($kupons);
+    }
+    public function getIndonesia()
+    {
+
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.materi')->withUser($user)->withKupons($kupons);
+    }
 
 }
