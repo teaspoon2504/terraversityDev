@@ -2,10 +2,14 @@
 
 $s = 'public.';
 Route::get('/',         ['as' => $s . 'home',   'uses' => 'PagesController@getHome']);
-Route::get('/ipa',         ['as' => $s . 'ipa',   'uses' => 'PagesController@getIpa']);
-Route::get('/matematika',         ['as' => $s . 'materi',   'uses' => 'PagesController@getMateri']);
+Route::get('/matematikadasar',         ['as' => $s . 'matematikadasar',   'uses' => 'PagesController@getMatematikadasar']);
+Route::get('/matematikaipa',         ['as' => $s . 'matematikaipa',   'uses' => 'PagesController@getMatematikaipa']);
+Route::get('/fisika',         ['as' => $s . 'ipa',   'uses' => 'PagesController@getFisika']);
+Route::get('/kimia',         ['as' => $s . 'ipa',   'uses' => 'PagesController@getKimia']);
+Route::get('/biologi',         ['as' => $s . 'ipa',   'uses' => 'PagesController@getBiologi']);
 Route::get('/inggris',         ['as' => $s . 'inggris',   'uses' => 'PagesController@getInggris']);
-Route::get('/indo',         ['as' => $s . 'indo',   'uses' => 'PagesController@getIndonesia']);
+Route::get('/indo',         ['as' => $s . 'indo',   'uses' => 'PagesController@getIndo']);
+Route::get('/tpa',         ['as' => $s . 'indo',   'uses' => 'PagesController@getTpa']);
 
 $a = 'auth.';
 Route::get('/login',            ['as' => $a . 'login',          'uses' => 'Auth\AuthController@getLogin']);

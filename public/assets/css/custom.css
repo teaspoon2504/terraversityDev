@@ -5,6 +5,9 @@
 	border-radius: 50%;
 }
 
+.terra{
+	color: #3e4095;
+}
 
 .pluz{
 	margin-top: 50px;
@@ -364,6 +367,12 @@ input.search-form:hover {
     width: 870px;
   }
 }
+.megamenunav{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
 @media (min-width: 1200px) {
 	.megamenunav{
 		width: 900px;
@@ -405,7 +414,7 @@ input.search-form:hover {
   text-decoration: none;
 }
 .mega-dropdown-menu .dropdown-header {
-  font-size: 18px;
+  font-size: 12px;
   color: #ff3546;
   padding: 5px 60px 5px 5px;
   line-height: 30px;

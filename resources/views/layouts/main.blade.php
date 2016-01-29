@@ -12,16 +12,15 @@
 
     <title>Laravel Social and Email Authentication</title>
 
-    {!! HTML::style('/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
-
-
-    {!! HTML::style('/assets/css/navbar-static-top.css') !!}
     {!! HTML::style('/assets/css/custom.css') !!}
     {!! HTML::style('/assets/css/drop.css') !!}
     {!! HTML::style('/assets/css/konten.css') !!}
     {!! HTML::style('/assets/css/simple-sidebar.css') !!}
+    {!! HTML::style('/assets/css/navbar-static-top.css') !!}
     {!! HTML::style('/assets/css/font-awesome.min.css') !!}
     {!! HTML::style('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css') !!}
+    {!! HTML::style('/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
+
 
     @yield('head')
 
@@ -39,17 +38,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ route('public.home')  }}" style="color: #3e4095">Terraversity</a>
+            <a class="navbar-brand" href="{{ route('public.home')  }}"><span class="terra">Terraversity</span></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
             @if(!Auth::check())
-                <li><a href="{{ route('public.home')  }}" style="color: #3e4095">Home</a></li>
+                <li><a href="{{ route('public.home')  }}"><span class="terra" >Home</span></a></li>
 
                 <li class="dropdown mega-dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" style="color: #3e4095">SBMPTN <span class="caret"></span></a>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" ><span class="terra">SBMPTN </span><span class="caret"></span></a>
                       <ul class="dropdown-menu mega-dropdown-menu">
-                        <div class="container megamenunav">
+                        <div class="megamenunav">
 
                                     <li class="col-sm-3 col-md-4">
                                        <ul>
@@ -67,56 +66,56 @@
 
                                     <li class="col-sm-3 col-md-4">
                                         <ul class="tahunmatematikaDasar" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
-                                          <li><a href="{{ route('public.materi') }}">matematika tahun 2000</a></li>
-                                          <li><a href="#">tahun 2001</a></li>
-                                          <li><a href="#">tahun 2002</a></li>
+                                          <li><a href="{{ route('public.matematikadasar') }}">matematika tahun 2000</a></li>
+                                          <li><a href="{{ route('public.matematikadasar') }}">tahun 2001</a></li>
+                                          <li><a href="{{ route('public.matematikadasar') }}">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunmatematikaIpa" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
-                                          <li><a href="{{ route('public.materi') }}">matematika tahun 2000</a></li>
-                                          <li><a href="#">tahun 2001</a></li>
-                                          <li><a href="#">tahun 2002</a></li>
+                                          <li><a href="{{ route('public.matematikaipa') }}">matematika tahun 2000</a></li>
+                                          <li><a href="{{ route('public.matematikaipa') }}">tahun 2001</a></li>
+                                          <li><a href="{{ route('public.matematikaipa') }}">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunfisika" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">ipa tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunkimia" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">ipa tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunbiologi" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">ipa tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahuninggris">
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">english tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunindo">
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">indonesia tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahuntpa">
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">indonesia tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
@@ -127,56 +126,56 @@
                                     <li class="col-sm-3 col-md-4">
 
                                               <ul class="tahunmatematikaDasar" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.materi') }}">matematika Bab 1</a></li>
+                                                <li><a href="{{ route('public.matematikadasar') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunmatematikaIpa" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.materi') }}">matematika Bab 1</a></li>
+                                                <li><a href="{{ route('public.matematikaipa') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunfisika" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">ipa Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunkimia" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">ipa Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunbiologi" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">ipa Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahuninggris">
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">english Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunindo">
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">indonesia Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahuntpa">
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">indonesia Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
@@ -187,12 +186,12 @@
                         </ul>
                     </li>
             @elseif(Auth::user()->email == 'eduterrajogja@terraversity.com')
-                <li><a href="{{ route('public.home')  }}" style="color: #3e4095">Home</a></li>
-                <li><a href="/admin/home" style="color: #3e4095">Admin Area</a></li>
+                <li><a href="{{ route('public.home')  }}"  >Home</a></li>
+                <li><a href="/admin/home"  >Admin Area</a></li>
             @else
-                <li><a style="color: #3e4095" href="{{ route('public.home')  }}" >Home</a></li>
+                <li><a   href="{{ route('public.home')  }}" >Home</a></li>
                 <li class="dropdown mega-dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" style="color: #3e4095">SBMPTN <span class="caret"></span></a>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"  >SBMPTN <span class="caret"></span></a>
                       <ul class="dropdown-menu mega-dropdown-menu">
                         <div class="container megamenunav">
 
@@ -212,56 +211,56 @@
 
                                     <li class="col-sm-3 col-md-4">
                                         <ul class="tahunmatematikaDasar" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="{{ route('public.materi') }}">matematika tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunmatematikaIpa" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="{{ route('public.materi') }}">matematika tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunfisika" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">ipa tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunkimia" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">ipa tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunbiologi" >
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">ipa tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahuninggris">
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">english tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahunindo">
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">indonesia tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
                                           <li><a href="#">tahun 2002</a></li>
                                         </ul>
                                         <ul class="tahuntpa">
-                                          <li class="dropdown-header">Berdasarkan Tahun</li>
+                                          <li >Berdasarkan Tahun</li>
                                           <li class="divider"></li>
                                           <li><a href="#">indonesia tahun 2000</a></li>
                                           <li><a href="#">tahun 2001</a></li>
@@ -272,56 +271,56 @@
                                     <li class="col-sm-3 col-md-4">
 
                                               <ul class="tahunmatematikaDasar" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="{{ route('public.materi') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunmatematikaIpa" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="{{ route('public.materi') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunfisika" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">ipa Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunkimia" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">ipa Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunbiologi" >
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">ipa Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahuninggris">
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">english Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahunindo">
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">indonesia Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
                                               <ul class="tahuntpa">
-                                                <li class="dropdown-header">Berdasarkan Bab</li>
+                                                <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">indonesia Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
@@ -331,20 +330,20 @@
                             </div>
                         </ul>
                     </li>
-                    
+
             @endif
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 @if(!Auth::check())
-                  <li><a href="{{ route('auth.login') }}" style="color: #3e4095">Voucher</a></li>
-                <li><a style="color: #3e4095" href="{{ route('auth.login') }}">Masuk</a></li>
-                <li><a style="color: #3e4095" href="{{ route('auth.register') }}">Daftar</a></li>
+                  <li><a href="{{ route('auth.login') }}"  >Voucher &nbsp;<span class="label label-warning" style="font-size: 9px">Promo</span></a></li>
+                <li><a   href="{{ route('auth.login') }}">Masuk</a></li>
+                <li><a   href="{{ route('auth.register') }}">Daftar</a></li>
                 @else
-                  <li><a style="color: #3e4095" href="/user/voucher">Voucher</a></li>
+                  <li><a   href="/user/voucher">Voucher</a></li>
                 <li><img src="{{Auth::user()->profile_picture}}" class="tetap"></li>
-                <li><a style="color: #3e4095" href="#">{{ Auth::user()->first_name }}</a></li>
-                <li><a style="color: #3e4095" href="{{ route('authenticated.logout') }}">Logout</a></li>
+                <li><a   href="#">{{ Auth::user()->first_name }}</a></li>
+                <li><a   href="{{ route('authenticated.logout') }}">Logout</a></li>
                 @endif
             </ul>
         </div>

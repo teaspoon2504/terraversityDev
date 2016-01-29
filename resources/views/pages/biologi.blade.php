@@ -9,8 +9,8 @@
                 <li class="sidebar-brand">
                     Matematika
                 </li>
-                <li id="thn2000">
-                    <a href="#">tahun 2000</a>
+                <li id="thn2000" id="2000-section">
+                    <a href="">tahun 2000</a>
                 </li>
                 <li id="thn2001">
                     <a href="#">tahun 2001</a>

@@ -1,0 +1,85 @@
+@extends('layouts.main')
+
+@section('head')
+
+@stop
+
+@section('content')
+
+
+<div id="wrapper" class="pluz">
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    Matematika
+                </li>
+                <li id="thn2000">
+                    <a href="#">tahun 2000</a>
+                </li>
+                <li id="thn2001">
+                    <a href="#">tahun 2001</a>
+                </li>
+                <li id="thn2002">
+                    <a href="#">tahun 2002</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row" id="konten2000">
+                    <div class="col-lg-12">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-JJjnrcyXco" frameborder="0" allowfullscreen></iframe>
+                </div>
+                </div>
+                <div class="row" id="konten2001">
+                    <div class="col-lg-12">
+
+                            <h2>Ordinary User Panel Home Page</h2>
+
+                        @if(!Auth::check())
+
+                               selamat datang {{Auth::user()->first_name}}
+                               <img src="{{Auth::user()->profile_picture}}">
+                        @endif
+
+
+                        @if (!Auth::user()->subscribed == 0)
+                         <p style="color: #3e4095">BOLEH LIAT</p>
+                         Konten super rahasia
+
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/L5-ML_RaVD8" frameborder="0" allowfullscreen></iframe>
+
+
+                        @else
+                        <p>gak boleh liat VIDEO</p>
+                        @endif
+                </div>
+                </div>
+                <div class="row" id="konten2002">
+                    <div class="col-lg-12">
+                            <h2>Ordinary User Panel Home Page</h2>
+                        @if(!Auth::check())
+                               selamat datang {{Auth::user()->first_name}}
+                               <img src="{{Auth::user()->profile_picture}}">
+                        @endif
+                        @if (!Auth::user()->subscribed == 0)
+                         <p style="color: #3e4095">BOLEH LIAT</p>
+                         Konten super rahasia
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/7iX8p_a-eFA" frameborder="0" allowfullscreen></iframe>
+                        @else
+                        <p>gak boleh liat VIDEO</p>
+                        @endif
+                </div>
+                </div>
+        </div>
+        </div>
+</div>
+
+
+@section('footer')
+
+
+@stop
