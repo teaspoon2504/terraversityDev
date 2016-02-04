@@ -1,22 +1,134 @@
+.tahunmatematikaDasar{
+	background: #2969B0;
+}
 .tahunmatematikaIpa{
   display: none;
+  background: #3D8EB9;
 }
 
 .tahunfisika{
   display: none;
+  background: #00A885;
 }
 .tahunkimia{
   display: none;
+  background: #41A85F;
 }
 .tahunbiologi{
   display: none;
+  background: #B8312F;
 }
 .tahuninggris{
   display: none;
+  background: #D14841;
 }
 .tahunindo{
   display: none;
+  background: #F37934;
 }
 .tahuntpa{
   display: none;
+  background: #553982;
+}
+.cus-menu{
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+.cus-menu li:hover, a:hover{
+	background: #F5F5F5;
+	/*font-weight: bold;*/
+	text-decoration: none !important;
+}
+.cus-sub-menu{/*
+	border-bottom: 2px solid transparent;
+	border-top: 2px solid transparent;*/
+	min-height: 38px;
+	border-left: 5px solid #DDD !important;
+	float: left;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	width: 100%
+}
+.cus-sub-menu a{
+	padding: 9px 13px;
+/*	width: 210px;*/
+	float: left;
+	margin-left: -5px;
+	width: 	100%;
+}
+
+.cus-sub-menu i{
+line-height: 38px;
+font-size: 20px;
+position: absolute;
+right: 20px;
+}
+.line-mtk-dasar{
+	border-left: 5px solid #2969B0;
+}
+.line-mtk-ipa{
+	border-left: 5px solid #3D8EB9;
+}
+.line-fisika{
+	border-left: 5px solid #00A885;
+}
+.line-kimia{
+	border-left: 5px solid #41A85F;
+}
+.line-biologi{
+	border-left: 5px solid #B8312F;
+}
+.line-inggris{
+	border-left: 5px solid #D14841;
+}
+.line-indo{
+	border-left: 5px solid #F37934;
+}
+.line-tpa{
+	border-left: 5px solid #553982;
+}
+.menu-block-right{
+width: 50%;
+top: -1px;
+right: auto;
+bottom: auto;
+position: absolute;
+min-height: 100%;
+border-width: 0px;
+box-sizing: border-box;
+left: 440px;
+}
+
+.menu-block-right li, .menu-block-right li a {
+list-style: outside none none;
+color: #FFF !important;
+min-height: 30px
+float: left;
+width: 100%;
+}
+
+.menu-block-right a:hover{
+background: rgba(0, 0, 0, 0.12) none repeat scroll 0% 0%;
+}
+
+.menu-block-right li a {
+	padding: 9px 13px;
+	float: left;
+}
+
+.menu-block-right ul{
+	margin-top: 25px;
+}
+
+.no-padding{
+	padding: 0px !important;
+}
+.bg-block-menu-right{
+left: 50%;
+position: absolute;
+right: 0px;
+min-height: 100%;
+top: -1px;
+z-index: -10;
 }

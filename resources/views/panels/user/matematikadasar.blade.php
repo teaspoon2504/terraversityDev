@@ -59,7 +59,7 @@
                 </div>
                 </div>
                 <div class="row" id="konten2002">
-                    <div class="col-lg-12">
+                    <div class="col-lg-8 col-md-4">
                             <h2>Ordinary User Panel Home Page</h2>
                         @if(!Auth::check())
                                selamat datang {{Auth::user()->first_name}}
@@ -68,11 +68,14 @@
                         @if (!Auth::user()->subscribed == 0)
                          <p style="color: #3e4095">BOLEH LIAT</p>
                          Konten super rahasia
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/7iX8p_a-eFA" frameborder="0" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="#" frameborder="0" allowfullscreen></iframe>
                         @else
                         <p>gak boleh liat VIDEO</p>
                         @endif
-                </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        
+                    </div>
                 </div>
         </div>
         </div>

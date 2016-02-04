@@ -375,7 +375,7 @@ input.search-form:hover {
 }
 @media (min-width: 1200px) {
 	.megamenunav{
-		width: 900px;
+		/*width: 900px;*/
 	}
   .harga {
     width: 970px;
@@ -604,3 +604,63 @@ input.search-form:hover {
             margin: 5px;
             top: 3px;
         }
+
+
+/*halaman pelajaran*/
+
+.box{
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+  border-top: 3px solid #0080D2;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.box-header{
+  border-bottom: 1px solid #fafafa;
+  font-size: 17px;
+  padding: 5px;
+  text-align: center;
+}
+.box-body{
+  padding: 10px;
+}
+
+
+/*custom sidebar halaman pelajaran*/
+.sidebar-nav li{
+  border-bottom: 1px solid #262626;
+}
+
+.fixed-position{
+  position: fixed !important;
+}
+
+#sidebar-wrapper-right{
+z-index: 2000;
+position: absolute;
+width: 0px;
+background: #121212 none repeat scroll 0% 0%;
+transition: all 0.5s ease 0s;
+height: 100%;
+overflow-y: auto;
+margin-left: -250px;
+right: 0px;
+/*left: 250px;
+top: 0px;*/
+}
+#sidebar-wrapper-right:active{
+  width: 250px !important;
+}
+
+.button-tahun{
+margin-left: -50px;
+border-radius: 5px 0px 0px 5px;
+background: #775757 none repeat scroll 0% 0%;
+width: 50px;
+z-index: 1000px;
+position: fixed;
+padding: 5px;
+text-align: center;
+margin-top: 50px;
+color: white;
+}
+

@@ -9,7 +9,7 @@ $(document).ready(function(){
         $(".tahunindo").hide();
         $(".tahuntpa").hide();
     });
-    $("#matematikaIpar").hover(function(){
+    $("#matematikaIpa").hover(function(){
         $(".tahunmatematikaDasar").hide();
         $(".tahunmatematikaIpa").show();
         $(".tahunfisika").hide();
@@ -84,19 +84,9 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $("#thn2001").click(function(){
+    $(".button-tahun").click(function(){
         $("#konten2001").show();
         $("#konten2002").hide();
-        $("#konten2000").hide();
-    });
-    $("#thn2000").click(function(){
-        $("#konten2000").show();
-        $("#konten2002").hide();
-        $("#konten2001").hide();
-    });
-    $("#thn2002").click(function(){
-        $("#konten2002").show();
-        $("#konten2001").hide();
         $("#konten2000").hide();
     });
 });
