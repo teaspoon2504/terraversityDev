@@ -84,10 +84,19 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $(".button-tahun").click(function(){
-        $("#konten2001").show();
-        $("#konten2002").hide();
-        $("#konten2000").hide();
+    // $(".button-tahun").click(function(){
+    //     $("#sidebar-right-expand").show();
+    // });
+
+    $('.button-wrapper-right a').on('click', function() {
+    $("#sidebar-wrapper-right").toggleClass('clicked');
+    $("#wrapper").toggleClass('rightclicked');
+    });
+
+    $('.button-wrapper a').on('click', function() {
+    $("#sidebar-wrapper").toggleClass('clicked');
+    $(".button-wrapper").toggleClass('clicked');
+    $("#wrapper").toggleClass('leftclicked');
     });
 });
 

@@ -29,8 +29,9 @@
 <body>
 
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container navmenutop">
+
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -284,6 +285,16 @@
                 <li><a href="/admin/home"  >Admin Area</a></li>
             @else
                 <li><a   href="{{ route('public.home')  }}" >Home</a></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="#">Inbox</a></li>
+                        <li><a href="#">Drafts</a></li>
+                        <li><a href="#">Sent Items</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Trash</a></li>
+                    </ul>
+                </li>
                 <li class="dropdown mega-dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown"  >SBMPTN <span class="caret"></span></a>
                       <ul class="dropdown-menu mega-dropdown-menu">
@@ -521,8 +532,8 @@
                                       
                                     
                         </div>
-                        </ul>
-                    </li>
+                      </ul>
+                </li>
 
             @endif
             </ul>

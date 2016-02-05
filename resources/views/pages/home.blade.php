@@ -245,21 +245,25 @@
        </div>
 
 <footer id="footerWrapper">
-  <section id="mainFooter">
+    
     <div class="container">
       <div class="row">
         <div class="container text-center">
             <hr />
                   <div class="row">
-                    <div class="col-lg-12">
-                      <div class="col-md-4">
+                    
+                      <div class="col-md-2 border-right">
                         <ul class="nav nav-pills nav-stacked">
                           <li><a href="#">Bantuan</a></li>
                           <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Tentang Kami</a></li>
+                          <li><a href="#">Hubungi Kami</a></li>
                         </ul>
                       </div>
-                      <div class="col-md-4">
-                        <div class="text-center center-block">
+                      <div class="col-md-10">
+                        <div class="text-center center-block margin-footer">
+                        <h3>TERRAVERSITY</h3>
+                          <p>terraversity adalah sebuah platform di mana kamu bisa belajar dan mempersiapkan tes SBMPTN dan UM-PTN berupa video pembahasan-soal.</p>
                                 dapatkan info baru tentang kami di:
                         </div>
                         <div class="text-center center-block">
@@ -269,21 +273,15 @@
                                 <!-- <a href="mailto:terraversityp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a> -->
                         </div>
                       </div>
-                      <div class="col-md-4">
-                        <ul class="nav nav-pills nav-stacked">
-                          <li><a href="#">Tentang Kami</a></li>
-                          <li><a href="#">Hubungi Kami</a></li>
-                        </ul>
-                      </div>
-                    </div>
+                    
                   </div>
         </div>
       </div>
-    </section>
+    
     <section id="footerRights">
       <div class="container">
         <div class="row">
-            <hr class="lineof">
+            <hr >
           <div class="text-center center-block">
             <p> created by <a href="http://www.terraversity.com" target="blank">Terraversity</a> 2016 </p>
           </div>

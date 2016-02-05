@@ -5,6 +5,9 @@
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper" class="fixed-position">
+            <div class="button-tahun button-wrapper">
+                <a href="#" class=""><i class="fa fa-youtube-play"></i></a>
+            </div>
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     Matematika
@@ -30,12 +33,12 @@
 
         <!-- Sidebar right-->
         <div id="sidebar-wrapper-right" class="fixed-position">
-            <div class="button-tahun">
-                tahun
+            <div class="button-tahun button-wrapper-right">
+                <a href="#" class=""><i class="fa fa-youtube-play"></i></a>
             </div>
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    Matematika
+                    Tahun Matematika
                 </li>
                 <li id="thn2000" id="2000-section">
                     <a href="">tahun 2000</a>
