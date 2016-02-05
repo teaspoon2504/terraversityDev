@@ -98,7 +98,7 @@
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasar') }}">matematika Bab 1</a></li>
+                                                <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
@@ -115,9 +115,9 @@
                                                 <ul class="tahunmatematikaIpa" >
                                                   <li >Berdasarkan Tahun</li>
                                                   <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikaipa') }}">matematika IPA tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikaipa') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikaipa') }}">tahun 2002</a></li>
+                                                  <li><a href="{{ route('public.matematikaipabab') }}">matematika IPA tahun 2000</a></li>
+                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2001</a></li>
+                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2002</a></li>
                                                 </ul>
                                                 
                                             </div>
@@ -125,7 +125,7 @@
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikaipa') }}">matematika Bab 1</a></li>
+                                                <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
@@ -149,7 +149,7 @@
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">ipa Bab 1</a></li>
+                                                <li><a href="{{ route('public.fisikabab') }}">FISIKA Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
@@ -338,9 +338,9 @@
                                                 <ul class="tahunmatematikaDasar" >
                                                   <li >Berdasarkan Tahun</li>
                                                   <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikadasar') }}">matematika tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikadasar') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikadasar') }}">tahun 2002</a></li>
+                                                  <li><a href="{{ route('public.matematikadasarbab') }}">matematika tahun 2000</a></li>
+                                                  <li><a href="{{ route('public.matematikadasarbab') }}">tahun 2001</a></li>
+                                                  <li><a href="{{ route('public.matematikadasarbab') }}">tahun 2002</a></li>
                                                 </ul>
                                                 
                                             </div>
@@ -348,7 +348,7 @@
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasar') }}">matematika Bab 1</a></li>
+                                                <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
@@ -365,9 +365,9 @@
                                                 <ul class="tahunmatematikaIpa" >
                                                   <li >Berdasarkan Tahun</li>
                                                   <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikaipa') }}">matematika IPA tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikaipa') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikaipa') }}">tahun 2002</a></li>
+                                                  <li><a href="{{ route('public.matematikaipabab') }}">matematika IPA tahun 2000</a></li>
+                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2001</a></li>
+                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2002</a></li>
                                                 </ul>
                                                 
                                             </div>
@@ -375,7 +375,7 @@
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikaipa') }}">matematika Bab 1</a></li>
+                                                <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
@@ -390,16 +390,16 @@
                                                 <ul class="tahunfisika" >
                                                   <li >Berdasarkan Tahun</li>
                                                   <li class="divider"></li>
-                                                  <li><a href="#">ipa tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
+                                                  <li><a href="{{ route('public.fisikabab') }}">ipa tahun 2000</a></li>
+                                                  <li><a href="{{ route('public.fisikabab') }}">tahun 2001</a></li>
+                                                  <li><a href="{{ route('public.fisikabab') }}">tahun 2002</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-6"> 
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">ipa Bab 1</a></li>
+                                                <li><a href="{{ route('public.fisikabab') }}">ipa Bab 1</a></li>
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>

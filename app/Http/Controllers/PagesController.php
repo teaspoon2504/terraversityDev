@@ -4,65 +4,145 @@ class PagesController extends Controller {
 
     public function getHome()
     {
-    	  $user=\Auth::user();
+        $user=\Auth::user();
         $kupons=\App\Kupon::all();
         return view('pages.home')->withUser($user)->withKupons($kupons);
     }
-    public function getMatematikadasar()
-    {
 
+
+
+    public function getMatematikaDasarBab()
+    {
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.matematikadasar')->withUser($user)->withKupons($kupons);
+      return view('pages.matematikadasarbab')->withUser($user)->withKupons($kupons);
     }
-    public function getMatematikaipa()
+    public function getMatematikaDasarTahun()
     {
-
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.matematikaipa')->withUser($user)->withKupons($kupons);
+      return view('pages.matematikadasartahun')->withUser($user)->withKupons($kupons);
     }
-    public function getFisika()
+    public function getMatematikaIpaBab()
     {
-
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.fisika')->withUser($user)->withKupons($kupons);
+      return view('pages.matematikaipabab')->withUser($user)->withKupons($kupons);
     }
-    public function getKimia()
+    public function getMatematikaIpaTahun()
     {
-
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.kimia')->withUser($user)->withKupons($kupons);
+      return view('pages.matematikaipatahun')->withUser($user)->withKupons($kupons);
     }
-    public function getBiologi()
+    public function getFisikaBab()
     {
-
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.biologi')->withUser($user)->withKupons($kupons);
+      return view('pages.fisikabab')->withUser($user)->withKupons($kupons);
     }
-    public function getInggris()
+    public function getFisikaTahun()
     {
-
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.inggris')->withUser($user)->withKupons($kupons);
+      return view('pages.fisikatahun')->withUser($user)->withKupons($kupons);
     }
-    public function getIndo()
+    public function getKimiaBab()
     {
-
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.indo')->withUser($user)->withKupons($kupons);
+      return view('pages.kimiabab')->withUser($user)->withKupons($kupons);
     }
-    public function getTpa()
+    public function getKimiaTahun()
     {
-
       $user=\Auth::user();
       $kupons=\App\Kupon::all();
-      return view('pages.tpa')->withUser($user)->withKupons($kupons);
+      return view('pages.kimiatahun')->withUser($user)->withKupons($kupons);
     }
+    public function getBiologiBab()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.biologibab')->withUser($user)->withKupons($kupons);
+    }
+    public function getBiologiTahun()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.biologitahun')->withUser($user)->withKupons($kupons);
+    }
+    public function getInggrisBab()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.inggrisbab')->withUser($user)->withKupons($kupons);
+    }
+    public function getInggrisTahun()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.inggristahun')->withUser($user)->withKupons($kupons);
+    }
+    public function getIndonesiaBab()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.indonesiabab')->withUser($user)->withKupons($kupons);
+    }
+    public function getIndonesiaTahun()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.indonesiatahun')->withUser($user)->withKupons($kupons);
+    }
+    public function getTpaBab()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.tpabab')->withUser($user)->withKupons($kupons);
+    }
+    public function getTpaTahun()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.tpatahun')->withUser($user)->withKupons($kupons);
+    }
+
+
+    public function getPanduan()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.panduan')->withUser($user)->withKupons($kupons);
+    }
+
+    public function getFaq()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.faq')->withUser($user)->withKupons($kupons);
+    }
+
+    public function getTentang()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.tentang')->withUser($user)->withKupons($kupons);
+    }
+
+    public function getVoucher()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.voucher')->withUser($user)->withKupons($kupons);
+    }
+
+    public function getInfodvd()
+    {
+      $user=\Auth::user();
+      $kupons=\App\Kupon::all();
+      return view('pages.infodvd')->withUser($user)->withKupons($kupons);
+    }
+
 
 }

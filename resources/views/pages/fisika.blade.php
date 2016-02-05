@@ -28,7 +28,7 @@
             <div class="container-fluid">
                 <div class="row" id="konten2000">
                     <div class="col-lg-12">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/-JJjnrcyXco" frameborder="0" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
 
                     </div>
                 </div>
