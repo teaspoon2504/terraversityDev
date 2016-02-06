@@ -81,28 +81,28 @@
                                         <li class="divider"></li>
                                         </ul>
                                     </li>
-                              
+
                                       <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <ul class="tahunmatematikaDasar" >
                                                   <li >Berdasarkan Tahun</li>
                                                   <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikadasar') }}">matematika tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikadasar') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikadasar') }}">tahun 2002</a></li>
+                                                  <li><a href="{{ route('public.matematikadasartahun') }}">matematika tahun 2000</a></li>
+                                                  <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2001</a></li>
+                                                  <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2002</a></li>
                                                 </ul>
-                                                
+
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
+                                                <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
                                               </ul>
-                                              
+
                                             </div>
                                         </div>
                                       </div>
@@ -111,23 +111,23 @@
                                       <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                
+
                                                 <ul class="tahunmatematikaIpa" >
                                                   <li >Berdasarkan Tahun</li>
                                                   <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikaipabab') }}">matematika IPA tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2002</a></li>
+                                                  <li><a href="{{ route('public.matematikaipatahun') }}">matematika IPA tahun 2000</a></li>
+                                                  <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2001</a></li>
+                                                  <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2002</a></li>
                                                 </ul>
-                                                
+
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
                                                 <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
+                                                <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
                                               </ul>
                                             </div>
                                         </div>
@@ -145,7 +145,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -169,7 +169,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunkimia" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -193,7 +193,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -217,7 +217,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahuninggris">
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -241,7 +241,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -265,7 +265,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -276,8 +276,8 @@
                                             </div>
                                         </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahuntpa"></div>  
-                        </div>  
+                                      <div class="bg-block-menu-right tahuntpa"></div>
+                        </div>
                       </ul>
                     </li>
             @elseif(Auth::user()->email == 'eduterrajogja@terraversity.com')
@@ -331,7 +331,7 @@
                                         <li class="divider"></li>
                                         </ul>
                                     </li>
-                              
+
                                       <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
                                         <div class="row">
                                             <div class="col-md-6">
@@ -342,9 +342,9 @@
                                                   <li><a href="{{ route('public.matematikadasarbab') }}">tahun 2001</a></li>
                                                   <li><a href="{{ route('public.matematikadasarbab') }}">tahun 2002</a></li>
                                                 </ul>
-                                                
+
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -352,7 +352,7 @@
                                                 <li><a href="#">Bab 2</a></li>
                                                 <li><a href="#">Bab 3</a></li>
                                               </ul>
-                                              
+
                                             </div>
                                         </div>
                                       </div>
@@ -361,7 +361,7 @@
                                       <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                
+
                                                 <ul class="tahunmatematikaIpa" >
                                                   <li >Berdasarkan Tahun</li>
                                                   <li class="divider"></li>
@@ -369,9 +369,9 @@
                                                   <li><a href="{{ route('public.matematikaipabab') }}">tahun 2001</a></li>
                                                   <li><a href="{{ route('public.matematikaipabab') }}">tahun 2002</a></li>
                                                 </ul>
-                                                
+
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -395,7 +395,7 @@
                                                   <li><a href="{{ route('public.fisikabab') }}">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -419,7 +419,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunkimia" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -443,7 +443,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -467,7 +467,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahuninggris">
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -491,7 +491,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -515,7 +515,7 @@
                                                   <li><a href="#">tahun 2002</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-6"> 
+                                            <div class="col-md-6">
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Bab</li>
                                                 <li class="divider"></li>
@@ -527,10 +527,10 @@
                                         </div>
                                       </div>
                                       <div class="bg-block-menu-right tahuntpa"></div>
-                                        
-                                   
-                                      
-                                    
+
+
+
+
                         </div>
                       </ul>
                 </li>
