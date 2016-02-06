@@ -756,3 +756,25 @@ footer{
 footer hr {
   border-color: #555;
 }
+.number-voucher{
+padding: 10px;
+border-radius: 50px;
+width: 40px;
+float: left;
+}
+.content-voucher{
+text-align: justify;
+float: left;
+width: 80%;
+margin-left: 10px;
+}
+.cara-beli{
+  float: left;
+}
+.hover-grayscale{
+  filter: grayscale(100%);
+}
+.hover-grayscale:hover{
+  filter: grayscale(0%);
+  transition: all 0.5s ease 0s;
+}
