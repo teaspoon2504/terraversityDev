@@ -131,7 +131,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="/images/testi(1).jpg" style="width: 100px;height:100px;">
+                  <img class="img-circle" src="/assets/images/testi(1).jpg" style="width: 100px;height:100px;">
                   <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
                 </div>
                 <div class="col-sm-9">
@@ -146,7 +146,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="/images/testi(2).jpg" style="width: 100px;height:100px;">
+                  <img class="img-circle" src="/assets/images/testi(2).jpg" style="width: 100px;height:100px;">
                 </div>
                 <div class="col-sm-9">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
@@ -160,7 +160,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="/images/testi(3).jpg" style="width: 100px;height:100px;">
+                  <img class="img-circle" src="/assets/images/testi(3).jpg" style="width: 100px;height:100px;">
                 </div>
                 <div class="col-sm-9">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
@@ -177,12 +177,12 @@
     </div>
   </div>
 
-
-
-
    <div class="container harga">
        <div class="row ">
-           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+         <div class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
+
+         </div>
+           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                <div class="db-wrapper">
                    <div class="db-pricing-seven">
                        <ul>
@@ -190,8 +190,6 @@
                                <i class="glyphicon glyphicon-qrcode"></i>
                                Biasa
                            </li>
-
-                           <li>Lorem Ipsum</li>
                            <li>Lorem Ipsum</li>
                            <li>Lorem Ipsum</li>
                            <li>Lorem Ipsum</li>
@@ -202,7 +200,7 @@
                    </div>
                </div>
            </div>
-           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                <div class="db-wrapper">
                    <div class="db-pricing-seven">
                        <ul>
@@ -213,7 +211,6 @@
                            <li>Lorem Ipsum</li>
                            <li>Lorem Ipsum</li>
                            <li>Lorem Ipsum</li>
-                           <li>Lorem Ipsum</li>
                        </ul>
                        <div class="pricing-footer">
                            <a href="#" class="btn btn-default btn-lg">BUY<i class="glyphicon glyphicon-play-circle"></i></a>
@@ -221,7 +218,8 @@
                    </div>
                </div>
            </div>
-
+           <div class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
+           </div>
 
        </div>
        </div>

@@ -44,511 +44,547 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
             @if(!Auth::check())
-                <li><a href="{{ route('public.home')  }}"><span class="terra" >Home</span></a></li>
+              <li><a   href="{{ route('public.home')  }}" >Home</a></li>
+              <li class="dropdown mega-dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown"  >SBMPTN <span class="caret"></span></a>
+                    <ul class="dropdown-menu mega-dropdown-menu">
 
-                <li class="dropdown mega-dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" ><span class="terra">SBMPTN </span><span class="caret"></span></a>
-                      <ul class="dropdown-menu mega-dropdown-menu">
-                        <div class="megamenunav">
+                      <div class="megamenunav">
 
-                                    <li class="col-md-offset-2 col-sm-3 col-md-2">
-                                       <ul class="cus-menu">
-                                        <li class="cus-sub-menu">
-                                        <a class="line-mtk-dasar" href="" id="matematikaDasar" > Matematika Dasar</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-mtk-ipa" href="" id="matematikaIpa"> Matematika IPA</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-fisika" href="" id="fisika">Fisika</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-kimia" href="" id="kimia">Kimia</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-biologi" href="" id="biologi">Biologi</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-inggris" href="" id="inggris">Bahasa Inggris</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-indo" href="" id="indo">Bahasa Indonesia</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-tpa" href="" id="tpa">TPA</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="divider"></li>
-                                        </ul>
-                                    </li>
+                                  <li class="col-md-offset-2 col-sm-3 col-md-2">
+                                     <ul class="cus-menu">
+                                      <li class="cus-sub-menu">
+                                      <a class="line-mtk-dasar" href="" id="matematikaDasar" > Matematika Dasar</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-mtk-ipa" href="" id="matematikaIpa"> Matematika IPA</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-fisika" href="" id="fisika">Fisika</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-kimia" href="" id="kimia">Kimia</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-biologi" href="" id="biologi">Biologi</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-inggris" href="" id="inggris">Bahasa Inggris</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-indo" href="" id="indo">Bahasa Indonesia</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-tpa" href="" id="tpa">TPA</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="divider"></li>
+                                      </ul>
+                                  </li>
 
-                                      <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunmatematikaDasar" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikadasartahun') }}">matematika tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2002</a></li>
-                                                </ul>
-
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunmatematikaDasar" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
-                                                <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
-                                                <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">matematika tahun 2000</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2002</a></li>
                                               </ul>
 
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunmatematikaDasar" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
+                                            </ul>
+
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunmatematikaDasar"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunmatematikaDasar"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
-                                        <div class="row">
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
+                                      <div class="row">
+                                          <div class="col-md-6">
 
-                                                <ul class="tahunmatematikaIpa" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikaipatahun') }}">matematika IPA tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2002</a></li>
-                                                </ul>
-
-                                            </div>
-                                            <div class="col-md-6">
                                               <ul class="tahunmatematikaIpa" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
-                                                <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
-                                                <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">matematika IPA tahun 2000</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
-                                      </div>
-                                      <div class="bg-block-menu-right tahunmatematikaIpa"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunfisika ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunfisika" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">ipa tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunmatematikaIpa" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunmatematikaIpa"></div>
+
+                                    <div class="menu-block-right bg-menu-right tahunfisika ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunfisika" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.fisikabab') }}">FISIKA Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.fisikatahun') }}">ipa tahun 2000</a></li>
+                                                <li><a href="{{ route('public.fisikatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.fisikatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunfisika" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">ipa Bab 1</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunfisika"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunfisika"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunkimia ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunkimia" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">Kimia tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunkimia ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunkimia" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">ipa Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.kimiatahun') }}">Kimia tahun 2000</a></li>
+                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunkimia" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.kimiabab') }}">ipa Bab 1</a></li>
+                                              <li><a href="{{ route('public.kimiabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.kimiabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunkimia"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunkimia"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunbiologi ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunbiologi" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">Biologi tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunbiologi ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunbiologi" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">ipa Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">Biologi tahun 2000</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunbiologi" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.biologibab') }}">ipa Bab 1</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunbiologi"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunbiologi"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahuninggris ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahuninggris">
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">english tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahuninggris ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahuninggris">
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">english Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.inggristahun') }}">english tahun 2000</a></li>
+                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahuninggris">
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.inggrisbab') }}">english Bab 1</a></li>
+                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahuninggris"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahuninggris"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunindo ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunindo">
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">indonesia tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunindo ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunindo">
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">indonesia Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.indonesiatahun') }}">indonesia tahun 2000</a></li>
+                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunindo">
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.indonesiabab') }}">indonesia Bab 1</a></li>
+                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunindo"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunindo"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahuntpa ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahuntpa">
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">TPA tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahuntpa ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahuntpa">
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">indonesia Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.tpatahun') }}">TPA tahun 2000</a></li>
+                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahuntpa">
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.tpabab') }}">indonesia Bab 1</a></li>
+                                              <li><a href="{{ route('public.tpabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.tpabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahuntpa"></div>
-                        </div>
-                      </ul>
-                    </li>
+                                    </div>
+                                    <div class="bg-block-menu-right tahuntpa"></div>
+                      </div>
+                    </ul>
+              </li>
             @elseif(Auth::user()->email == 'eduterrajogja@terraversity.com')
                 <li><a href="{{ route('public.home')  }}"  >Home</a></li>
                 <li><a href="/admin/home"  >Admin Area</a></li>
             @else
-                <li><a   href="{{ route('public.home')  }}" >Home</a></li>
-                <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
-                    <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">Inbox</a></li>
-                        <li><a href="#">Drafts</a></li>
-                        <li><a href="#">Sent Items</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Trash</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown mega-dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown"  >SBMPTN <span class="caret"></span></a>
-                      <ul class="dropdown-menu mega-dropdown-menu">
 
-                        <div class="megamenunav">
+              <li><a   href="{{ route('public.home')  }}" >Home</a></li>
+              <li class="dropdown mega-dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown"  >SBMPTN <span class="caret"></span></a>
+                    <ul class="dropdown-menu mega-dropdown-menu">
 
-                                    <li class="col-md-offset-2 col-sm-3 col-md-2">
-                                       <ul class="cus-menu">
-                                        <li class="cus-sub-menu">
-                                        <a class="line-mtk-dasar" href="" id="matematikaDasar" > Matematika Dasar</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-mtk-ipa" href="" id="matematikaIpa"> Matematika IPA</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-fisika" href="" id="fisika">Fisika</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-kimia" href="" id="kimia">Kimia</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-biologi" href="" id="biologi">Biologi</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-inggris" href="" id="inggris">Bahasa Inggris</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-indo" href="" id="indo">Bahasa Indonesia</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="cus-sub-menu"><a class="line-tpa" href="" id="tpa">TPA</a>
-                                          <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="divider"></li>
-                                        </ul>
-                                    </li>
+                      <div class="megamenunav">
 
-                                      <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunmatematikaDasar" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikadasarbab') }}">matematika tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikadasarbab') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikadasarbab') }}">tahun 2002</a></li>
-                                                </ul>
+                                  <li class="col-md-offset-2 col-sm-3 col-md-2">
+                                     <ul class="cus-menu">
+                                      <li class="cus-sub-menu">
+                                      <a class="line-mtk-dasar" href="" id="matematikaDasar" > Matematika Dasar</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-mtk-ipa" href="" id="matematikaIpa"> Matematika IPA</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-fisika" href="" id="fisika">Fisika</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-kimia" href="" id="kimia">Kimia</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-biologi" href="" id="biologi">Biologi</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-inggris" href="" id="inggris">Bahasa Inggris</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-indo" href="" id="indo">Bahasa Indonesia</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="cus-sub-menu"><a class="line-tpa" href="" id="tpa">TPA</a>
+                                        <i class="fa fa-angle-right"></i>
+                                      </li>
+                                      <li class="divider"></li>
+                                      </ul>
+                                  </li>
 
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunmatematikaDasar" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">00</a></li>
+                                                    <li><a href="#">01</a></li>
+                                                    <li><a href="#">02</a></li>
+                                                    <li><a href="#">03</a></li>
+                                                    <li><a href="#">04</a></li>
+                                                    <li><a href="#">05</a></li>
+                                                    <li><a href="#">06</a></li>
+                                                    <li><a href="#">07</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">08</a></li>
+                                                    <li><a href="#">09</a></li>
+                                                    <li><a href="#">10</a></li>
+                                                    <li><a href="#">11</a></li>
+                                                    <li><a href="#">12</a></li>
+                                                    <li><a href="#">13</a></li>
+                                                    <li><a href="#">14</a></li>
+                                                    <li><a href="#">15</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
 
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunmatematikaDasar" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
+                                            </ul>
+
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunmatematikaDasar"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunmatematikaDasar"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
-                                        <div class="row">
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
+                                      <div class="row">
+                                          <div class="col-md-6">
 
-                                                <ul class="tahunmatematikaIpa" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="{{ route('public.matematikaipabab') }}">matematika IPA tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.matematikaipabab') }}">tahun 2002</a></li>
-                                                </ul>
-
-                                            </div>
-                                            <div class="col-md-6">
                                               <ul class="tahunmatematikaIpa" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="#">00</a></li>
+                                                <li><a href="#">01</a></li>
+                                                <li><a href="#">02</a></li>
+                                                <li><a href="#">03</a></li>
+                                                <li><a href="#">04</a></li>
+                                                <li><a href="#">05</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
-                                      </div>
-                                      <div class="bg-block-menu-right tahunmatematikaIpa"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunfisika ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunfisika" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="{{ route('public.fisikabab') }}">ipa tahun 2000</a></li>
-                                                  <li><a href="{{ route('public.fisikabab') }}">tahun 2001</a></li>
-                                                  <li><a href="{{ route('public.fisikabab') }}">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunmatematikaIpa" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunmatematikaIpa"></div>
+
+                                    <div class="menu-block-right bg-menu-right tahunfisika ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunfisika" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.fisikabab') }}">ipa Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="#">00</a></li>
+                                                <li><a href="#">01</a></li>
+                                                <li><a href="#">02</a></li>
+                                                <li><a href="#">03</a></li>
+                                                <li><a href="#">04</a></li>
+                                                <li><a href="#">05</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
-                                      </div>
-                                      <div class="bg-block-menu-right tahunfisika"></div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunfisika" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <div class="row">
+                                                <div class="col-xs-6">
+                                                  <li><a href="/user/fisika-bab#pendahuluan">Pendahuluan</a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                </div>
+                                              </div>
 
-                                      <div class="menu-block-right bg-menu-right tahunkimia ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunkimia" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">Kimia tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+
+                                            </ul>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunfisika"></div>
+
+                                    <div class="menu-block-right bg-menu-right tahunkimia ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunkimia" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">ipa Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.kimiatahun') }}">Kimia tahun 2000</a></li>
+                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunkimia" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.kimiabab') }}">ipa Bab 1</a></li>
+                                              <li><a href="{{ route('public.kimiabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.kimiabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunkimia"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunkimia"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunbiologi ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunbiologi" >
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">Biologi tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunbiologi ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunbiologi" >
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">ipa Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">Biologi tahun 2000</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunbiologi" >
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.biologibab') }}">ipa Bab 1</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunbiologi"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunbiologi"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahuninggris ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahuninggris">
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">english tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahuninggris ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahuninggris">
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">english Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.inggristahun') }}">english tahun 2000</a></li>
+                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahuninggris">
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.inggrisbab') }}">english Bab 1</a></li>
+                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahuninggris"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahuninggris"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahunindo ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahunindo">
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">indonesia tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahunindo ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahunindo">
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">indonesia Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.indonesiatahun') }}">indonesia tahun 2000</a></li>
+                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahunindo">
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.indonesiabab') }}">indonesia Bab 1</a></li>
+                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahunindo"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahunindo"></div>
 
-                                      <div class="menu-block-right bg-menu-right tahuntpa ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="tahuntpa">
-                                                  <li >Berdasarkan Tahun</li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">TPA tahun 2000</a></li>
-                                                  <li><a href="#">tahun 2001</a></li>
-                                                  <li><a href="#">tahun 2002</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
+                                    <div class="menu-block-right bg-menu-right tahuntpa ">
+                                      <div class="row">
+                                          <div class="col-md-6">
                                               <ul class="tahuntpa">
-                                                <li >Berdasarkan Bab</li>
+                                                <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">indonesia Bab 1</a></li>
-                                                <li><a href="#">Bab 2</a></li>
-                                                <li><a href="#">Bab 3</a></li>
+                                                <li><a href="{{ route('public.tpatahun') }}">TPA tahun 2000</a></li>
+                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2001</a></li>
+                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2002</a></li>
                                               </ul>
-                                            </div>
-                                        </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="tahuntpa">
+                                              <li >Berdasarkan Bab</li>
+                                              <li class="divider"></li>
+                                              <li><a href="{{ route('public.tpabab') }}">indonesia Bab 1</a></li>
+                                              <li><a href="{{ route('public.tpabab') }}">Bab 2</a></li>
+                                              <li><a href="{{ route('public.tpabab') }}">Bab 3</a></li>
+                                            </ul>
+                                          </div>
                                       </div>
-                                      <div class="bg-block-menu-right tahuntpa"></div>
+                                    </div>
+                                    <div class="bg-block-menu-right tahuntpa"></div>
+                      </div>
+                    </ul>
+              </li>
 
 
 
-
-                        </div>
-                      </ul>
-                </li>
 
             @endif
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                @if(!Auth::check())
-                  <li><a href="{{ route('auth.login') }}"  >Voucher &nbsp;<span class="label label-warning" style="font-size: 9px">Promo</span></a></li>
-                <li><a   href="{{ route('auth.login') }}">Masuk</a></li>
-                <li><a   href="{{ route('auth.register') }}">Daftar</a></li>
-                @else
+              @if(!Auth::check())
+                  <li><a href="{{ route('public.voucher') }}"  >Voucher &nbsp;<span class="label label-warning" style="font-size: 9px">Promo</span></a></li>
+                  <li><a   href="{{ route('auth.login') }}">Masuk</a></li>
+                  <li><a   href="{{ route('auth.register') }}">Daftar</a></li>
+              @else
                   <li><a   href="/user/voucher">Voucher</a></li>
-                <li><img src="{{Auth::user()->profile_picture}}" class="tetap"></li>
-                <li><a   href="#">{{ Auth::user()->first_name }}</a></li>
-                <li><a   href="{{ route('authenticated.logout') }}">Logout</a></li>
-                @endif
+                  <li><img src="{{Auth::user()->profile_picture}}" class="tetap"></li>
+                  <li><a   href="#">{{ Auth::user()->first_name }}</a></li>
+                  <li><a   href="{{ route('authenticated.logout') }}">Logout</a></li>
+              @endif
             </ul>
         </div>
     </div>

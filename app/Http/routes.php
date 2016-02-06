@@ -23,7 +23,7 @@ Route::get('/tpa-tahun',                      ['as' => $s . 'tpatahun',   'uses'
 Route::get('/panduan',                        ['as' => $s . 'panduan',   'uses' => 'PagesController@getPanduan']);
 Route::get('/faq',                            ['as' => $s . 'faq',   'uses' => 'PagesController@getFaq']);
 Route::get('/tentang-terraversity',           ['as' => $s . 'tentang',   'uses' => 'PagesController@getTentang']);
-Route::get('/voucher',                        ['as' => $s . 'voucher',   'uses' => 'PagesController@getVoucher']);
+Route::get('/voucher-input',                        ['as' => $s . 'voucher',   'uses' => 'PagesController@getVoucher']);
 Route::get('/info-dvd',                       ['as' => $s . 'infodvd',   'uses' => 'PagesController@getInfodvd']);
 
 
@@ -70,20 +70,20 @@ Route::post('user/kupon/subscribe',         'KuponController@subscribe');
 Route::get('user/materi',                   'UserController@getHome');
 Route::get('user/voucher',                  'UserController@getVoucher');
 
-Route::get('/user/matematika-dasar-bab',    'UserController@getMatematikaDasarBab');
-Route::get('/user/matematika-ipa-bab',      'UserController@getMatematikaIpaBab');
-Route::get('/user/fisika-bab',              'UserController@getFisikaBab');
-Route::get('/user/kimia-bab',               'UserController@getKimiaBab');
-Route::get('/user/biologi-bab',             'UserController@getBiologiBab');
-Route::get('/user/inggris-bab',             'UserController@getInggrisBab');
-Route::get('/user/indonesia-bab',           'UserController@getIndonesiaBab');
-Route::get('/user/tpa-bab',                 'UserController@getTpaBab');
+Route::get('user/matematika-dasar-bab',    'UserController@getMatematikaDasarBab');
+Route::get('user/matematika-ipa-bab',      'UserController@getMatematikaIpaBab');
+Route::get('user/fisika-bab', 'UserController@getFisikaBab');
+Route::get('user/kimia-bab', 'UserController@getKimiaBab');
+Route::get('user/biologi-bab',             'UserController@getBiologiBab');
+Route::get('user/inggris-bab',             'UserController@getInggrisBab');
+Route::get('user/indonesia-bab',           'UserController@getIndonesiaBab');
+Route::get('user/tpa-bab',                 'UserController@getTpaBab');
 
-Route::get('/user/matematika-dasar-tahun',  'UserController@getMatematikaDasarTahun');
-Route::get('/user/matematika-ipa-tahun',    'UserController@getMatematikaIpaTahun');
-Route::get('/user/fisika-tahun',            'UserController@getFisikaTahun');
-Route::get('/user/kimia-tahun',             'UserController@getKimiaTahun');
-Route::get('/user/biologi-tahun',           'UserController@getBiologiTahun');
-Route::get('/user/inggris-tahun',           'UserController@getInggrisTahun');
-Route::get('/user/indonesia-tahun',         'UserController@getIndonesiaTahun');
-Route::get('/user/tpa-tahun',               'UserController@getTpaTahun');
+Route::get('user/matematika-dasar-tahun',  'UserController@getMatematikaDasarTahun');
+Route::get('user/matematika-ipa-tahun',    'UserController@getMatematikaIpaTahun');
+Route::get('user/fisika-tahun',            'UserController@getFisikaTahun');
+Route::get('user/kimia-tahun',             'UserController@getKimiaTahun');
+Route::get('user/biologi-tahun',           'UserController@getBiologiTahun');
+Route::get('user/inggris-tahun',           'UserController@getInggrisTahun');
+Route::get('user/indonesia-tahun',         'UserController@getIndonesiaTahun');
+Route::get('user/tpa-tahun',               'UserController@getTpaTahun');
