@@ -325,11 +325,12 @@
 
                                     <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
                                       <div class="row">
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
                                                 <div class="row">
+
                                                   <div class="col-xs-6">
                                                     <li><a href="#">00</a></li>
                                                     <li><a href="#">01</a></li>
@@ -341,14 +342,14 @@
                                                     <li><a href="#">07</a></li>
                                                   </div>
                                                   <div class="col-xs-6">
+                                                    <li><a href="#">07</a></li>
                                                     <li><a href="#">08</a></li>
                                                     <li><a href="#">09</a></li>
                                                     <li><a href="#">10</a></li>
                                                     <li><a href="#">11</a></li>
                                                     <li><a href="#">12</a></li>
                                                     <li><a href="#">13</a></li>
-                                                    <li><a href="#">14</a></li>
-                                                    <li><a href="#">15</a></li>
+                                                    <li><a href="#">13</a></li>
                                                   </div>
                                                 </div>
                                               </ul>

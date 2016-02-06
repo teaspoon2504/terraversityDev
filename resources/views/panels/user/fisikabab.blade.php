@@ -36,21 +36,44 @@
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
+        <section class="full-page-coba">
+            <div class="row">
+                <div class="col-md-8">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4">
+                    <div class="bab">
+                        
+                        <div class="isi-bab">
+                        <h3 class="text-center">BAB</h3>
+                        <hr>
+                            <p><a class="fisika" href="#">bab 1</a></p>
+                            <p><a class="fisika" href="#">bab 1</a></p>
+                            <p><a class="fisika" href="#">bab 1</a></p>
+                            <p><a class="fisika" href="#">bab 1</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+        </section>
+
         <section id="pendahuluan">
         <div id="page-content-wrapper" >
             <div class="container-fluid">
 
-                      <section id="">
+                      <!-- <section id="">
                         <div class="box full-page">
                             <div class="box-header">Pendahuluan</div>
                             <div class="box-body">
                               <div class="cus-center">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
+                                
                               </div>
                             </div>
                             <div class="box-footer"></div>
                         </div>
-                      </section>
+                      </section>-->
+                      
 
                 <div class="row" id="konten2001">
                     <div class="col-lg-12">
@@ -65,7 +88,7 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
-      </section>
+        </section>
 
 
 
