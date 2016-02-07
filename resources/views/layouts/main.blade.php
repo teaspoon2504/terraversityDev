@@ -87,8 +87,8 @@
                                   </li>
 
                                     <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -98,7 +98,7 @@
                                               </ul>
 
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunmatematikaDasar" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -113,8 +113,8 @@
                                     <div class="bg-block-menu-right tahunmatematikaDasar"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
 
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Tahun</li>
@@ -125,7 +125,7 @@
                                               </ul>
 
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunmatematikaIpa" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -139,8 +139,8 @@
                                     <div class="bg-block-menu-right tahunmatematikaIpa"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunfisika ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -149,7 +149,7 @@
                                                 <li><a href="{{ route('public.fisikatahun') }}">tahun 2002</a></li>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunfisika" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -173,9 +173,9 @@
                                     <div class="bg-block-menu-right tahunfisika"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunkimia ">
-                                      <div class="row">
-                                          <div class="col-md-6">
-                                              <ul class="tahunkimia" >
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
+                                              <ul class="tahunkimia scroll-menu" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
                                                 <li><a href="{{ route('public.kimiatahun') }}">tahun 2000</a></li>
@@ -183,7 +183,7 @@
                                                 <li><a href="{{ route('public.kimiatahun') }}">tahun 2002</a></li>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunkimia" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -197,8 +197,8 @@
                                     <div class="bg-block-menu-right tahunkimia"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunbiologi ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -207,7 +207,7 @@
                                                 <li><a href="{{ route('public.biologitahun') }}">tahun 2002</a></li>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunbiologi" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -221,9 +221,9 @@
                                     <div class="bg-block-menu-right tahunbiologi"></div>
 
                                     <div class="menu-block-right bg-menu-right tahuninggris ">
-                                      <div class="row">
-                                          <div class="col-md-6">
-                                              <ul class="tahuninggris">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
+                                              <ul class="tahuninggris scroll-menu">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
                                                 <li><a href="{{ route('public.inggristahun') }}">tahun 2000</a></li>
@@ -231,7 +231,7 @@
                                                 <li><a href="{{ route('public.inggristahun') }}">tahun 2002</a></li>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahuninggris">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -245,8 +245,8 @@
                                     <div class="bg-block-menu-right tahuninggris"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunindo ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -255,7 +255,7 @@
                                                 <li><a href="{{ route('public.indonesiatahun') }}">tahun 2002</a></li>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunindo">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -269,8 +269,8 @@
                                     <div class="bg-block-menu-right tahunindo"></div>
 
                                     <div class="menu-block-right bg-menu-right tahuntpa ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -279,7 +279,7 @@
                                                 <li><a href="{{ route('public.tpatahun') }}">tahun 2002</a></li>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahuntpa">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -338,7 +338,7 @@
                                   </li>
 
                                     <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
-                                      <div class="row">
+                                      <div class="row scroll-menu">
                                           <div class="col-md-6 scroll-menu">
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
@@ -368,7 +368,7 @@
                                               </ul>
 
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunmatematikaDasar" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -383,8 +383,8 @@
                                     <div class="bg-block-menu-right tahunmatematikaDasar"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
 
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Tahun</li>
@@ -414,7 +414,7 @@
                                               </ul>
 
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class=" col-md-6 scroll-menu">
                                             <ul class="tahunmatematikaIpa" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -428,8 +428,8 @@
                                     <div class="bg-block-menu-right tahunmatematikaIpa"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunfisika ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -457,7 +457,7 @@
                                                 </div>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunfisika" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -489,8 +489,8 @@
                                     <div class="bg-block-menu-right tahunfisika"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunkimia ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunkimia" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -518,7 +518,7 @@
                                                 </div>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunkimia" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -532,8 +532,8 @@
                                     <div class="bg-block-menu-right tahunkimia"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunbiologi ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -561,7 +561,7 @@
                                                 </div>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunbiologi" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -575,8 +575,8 @@
                                     <div class="bg-block-menu-right tahunbiologi"></div>
 
                                     <div class="menu-block-right bg-menu-right tahuninggris ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahuninggris">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -604,7 +604,7 @@
                                                 </div>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahuninggris">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -618,8 +618,8 @@
                                     <div class="bg-block-menu-right tahuninggris"></div>
 
                                     <div class="menu-block-right bg-menu-right tahunindo ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -647,7 +647,7 @@
                                                 </div>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahunindo">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
@@ -661,8 +661,8 @@
                                     <div class="bg-block-menu-right tahunindo"></div>
 
                                     <div class="menu-block-right bg-menu-right tahuntpa ">
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row scroll-menu">
+                                          <div class="col-md-6 scroll-menu">
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
@@ -690,7 +690,7 @@
                                                 </div>
                                               </ul>
                                           </div>
-                                          <div class="col-md-6">
+                                          <div class="col-md-6 scroll-menu">
                                             <ul class="tahuntpa">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
