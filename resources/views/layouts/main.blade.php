@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Laravel Social and Email Authentication</title>
+    <title>Terraversity</title>
 
     {!! HTML::style('/assets/css/custom.css') !!}
     {!! HTML::style('/assets/css/drop.css') !!}
@@ -39,7 +39,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ route('public.home')  }}"><span class="terra">Terraversity</span></a>
+            <a class="navbar-brand" href="{{ route('public.home')  }}">
+              <span class="terra">
+                <img src="/assets/images/logo.png" alt="Terraversity" style="width: 100px; height: 30px" />
+              </span>
+            </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -88,7 +92,7 @@
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">matematika tahun 2000</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -98,7 +102,7 @@
                                             <ul class="tahunmatematikaDasar" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 1</a></li>
                                               <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
                                               <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
                                             </ul>
@@ -115,7 +119,7 @@
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikaipatahun') }}">matematika IPA tahun 2000</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -125,7 +129,7 @@
                                             <ul class="tahunmatematikaIpa" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 1</a></li>
                                               <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
                                               <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
                                             </ul>
@@ -140,7 +144,7 @@
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.fisikatahun') }}">ipa tahun 2000</a></li>
+                                                <li><a href="{{ route('public.fisikatahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.fisikatahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.fisikatahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -149,9 +153,19 @@
                                             <ul class="tahunfisika" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">ipa Bab 1</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Bab 3</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Pendahuluan</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Dinamika Gerak Lurus</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Dinamika Rotasi</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Fisika Modern</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Fluida</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Getaran,Gelombang dan Bunyi</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Induksi Magnetik Dan Arus Tegangan Bolak-Balik</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Kinematika Gerak Lurus</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Listrik</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Momentum Dan Impuls</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Optik</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Suhu Dan Kalor</a></li>
+                                              <li><a href="{{ route('public.fisikabab') }}">Usaha Dan Energi</a></li>
                                             </ul>
                                           </div>
                                       </div>
@@ -164,7 +178,7 @@
                                               <ul class="tahunkimia" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.kimiatahun') }}">Kimia tahun 2000</a></li>
+                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.kimiatahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.kimiatahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -173,7 +187,7 @@
                                             <ul class="tahunkimia" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">ipa Bab 1</a></li>
+                                              <li><a href="{{ route('public.kimiabab') }}">Bab 1</a></li>
                                               <li><a href="{{ route('public.kimiabab') }}">Bab 2</a></li>
                                               <li><a href="{{ route('public.kimiabab') }}">Bab 3</a></li>
                                             </ul>
@@ -188,7 +202,7 @@
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.biologitahun') }}">Biologi tahun 2000</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.biologitahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.biologitahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -212,7 +226,7 @@
                                               <ul class="tahuninggris">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.inggristahun') }}">english tahun 2000</a></li>
+                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.inggristahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.inggristahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -221,7 +235,7 @@
                                             <ul class="tahuninggris">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.inggrisbab') }}">english Bab 1</a></li>
+                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 1</a></li>
                                               <li><a href="{{ route('public.inggrisbab') }}">Bab 2</a></li>
                                               <li><a href="{{ route('public.inggrisbab') }}">Bab 3</a></li>
                                             </ul>
@@ -236,7 +250,7 @@
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.indonesiatahun') }}">indonesia tahun 2000</a></li>
+                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.indonesiatahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.indonesiatahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -245,7 +259,7 @@
                                             <ul class="tahunindo">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.indonesiabab') }}">indonesia Bab 1</a></li>
+                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 1</a></li>
                                               <li><a href="{{ route('public.indonesiabab') }}">Bab 2</a></li>
                                               <li><a href="{{ route('public.indonesiabab') }}">Bab 3</a></li>
                                             </ul>
@@ -260,7 +274,7 @@
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.tpatahun') }}">TPA tahun 2000</a></li>
+                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2000</a></li>
                                                 <li><a href="{{ route('public.tpatahun') }}">tahun 2001</a></li>
                                                 <li><a href="{{ route('public.tpatahun') }}">tahun 2002</a></li>
                                               </ul>
@@ -269,7 +283,7 @@
                                             <ul class="tahuntpa">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.tpabab') }}">indonesia Bab 1</a></li>
+                                              <li><a href="{{ route('public.tpabab') }}">Bab 1</a></li>
                                               <li><a href="{{ route('public.tpabab') }}">Bab 2</a></li>
                                               <li><a href="{{ route('public.tpabab') }}">Bab 3</a></li>
                                             </ul>
@@ -330,26 +344,25 @@
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
                                                 <div class="row">
-
                                                   <div class="col-xs-6">
-                                                    <li><a href="#">00</a></li>
-                                                    <li><a href="#">01</a></li>
-                                                    <li><a href="#">02</a></li>
-                                                    <li><a href="#">03</a></li>
-                                                    <li><a href="#">04</a></li>
-                                                    <li><a href="#">05</a></li>
-                                                    <li><a href="#">06</a></li>
-                                                    <li><a href="#">07</a></li>
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
                                                   </div>
                                                   <div class="col-xs-6">
-                                                    <li><a href="#">07</a></li>
-                                                    <li><a href="#">08</a></li>
-                                                    <li><a href="#">09</a></li>
-                                                    <li><a href="#">10</a></li>
-                                                    <li><a href="#">11</a></li>
-                                                    <li><a href="#">12</a></li>
-                                                    <li><a href="#">13</a></li>
-                                                    <li><a href="#">13</a></li>
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
                                                   </div>
                                                 </div>
                                               </ul>
@@ -376,12 +389,28 @@
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">00</a></li>
-                                                <li><a href="#">01</a></li>
-                                                <li><a href="#">02</a></li>
-                                                <li><a href="#">03</a></li>
-                                                <li><a href="#">04</a></li>
-                                                <li><a href="#">05</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
 
                                           </div>
@@ -404,12 +433,28 @@
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">00</a></li>
-                                                <li><a href="#">01</a></li>
-                                                <li><a href="#">02</a></li>
-                                                <li><a href="#">03</a></li>
-                                                <li><a href="#">04</a></li>
-                                                <li><a href="#">05</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
                                           </div>
                                           <div class="col-md-6">
@@ -419,23 +464,20 @@
                                               <div class="row">
                                                 <div class="col-xs-6">
                                                   <li><a href="/user/fisika-bab#pendahuluan">Pendahuluan</a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#dinamikageraklurus">Dinamika Gerak Lurus</a></li>
+                                                  <li><a href="/user/fisika-bab#dinamikarotasi">Dinamika Rotasi</a></li>
+                                                  <li><a href="/user/fisika-bab#fisikamodern">Fisika Modern</a></li>
+                                                  <li><a href="/user/fisika-bab#fluida">Fluida</a></li>
+                                                  <li><a href="/user/fisika-bab#getarangelombangdanbunyi">Getaran,Gelombang dan Bunyi</a></li>
+                                                  <li><a href="/user/fisika-bab#induksimagnetik">Induksi Magnetik Dan Arus Tegangan Bolak-Balik</a></li>
+                                                  <li><a href="/user/fisika-bab#kinematikageraklurus">Kinematika Gerak Lurus</a></li>
                                                 </div>
                                                 <div class="col-xs-6">
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
-                                                  <li><a href="/user/fisika-bab#"></a></li>
+                                                  <li><a href="/user/fisika-bab#listrik">Listrik</a></li>
+                                                  <li><a href="/user/fisika-bab#momentumdanimpuls">Momentum Dan Impuls</a></li>
+                                                  <li><a href="/user/fisika-bab#optik">Optik</a></li>
+                                                  <li><a href="/user/fisika-bab#suhudankalor">Suhu Dan Kalor</a></li>
+                                                  <li><a href="/user/fisika-bab#usahadanenergi">Usaha Dan Energi</a></li>
                                                 </div>
                                               </div>
 
@@ -452,9 +494,28 @@
                                               <ul class="tahunkimia" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.kimiatahun') }}">Kimia tahun 2000</a></li>
-                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2002</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
                                           </div>
                                           <div class="col-md-6">
@@ -476,9 +537,28 @@
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.biologitahun') }}">Biologi tahun 2000</a></li>
-                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2002</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
                                           </div>
                                           <div class="col-md-6">
@@ -500,9 +580,28 @@
                                               <ul class="tahuninggris">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.inggristahun') }}">english tahun 2000</a></li>
-                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2002</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
                                           </div>
                                           <div class="col-md-6">
@@ -524,9 +623,28 @@
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.indonesiatahun') }}">indonesia tahun 2000</a></li>
-                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2002</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
                                           </div>
                                           <div class="col-md-6">
@@ -548,9 +666,28 @@
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.tpatahun') }}">TPA tahun 2000</a></li>
-                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2002</a></li>
+                                                <div class="row">
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2000</a></li>
+                                                    <li><a href="#">tahun 2001</a></li>
+                                                    <li><a href="#">tahun 2002</a></li>
+                                                    <li><a href="#">tahun 2003</a></li>
+                                                    <li><a href="#">tahun 2004</a></li>
+                                                    <li><a href="#">tahun 2005</a></li>
+                                                    <li><a href="#">tahun 2006</a></li>
+                                                    <li><a href="#">tahun 2007</a></li>
+                                                  </div>
+                                                  <div class="col-xs-6">
+                                                    <li><a href="#">tahun 2008</a></li>
+                                                    <li><a href="#">tahun 2009</a></li>
+                                                    <li><a href="#">tahun 2010</a></li>
+                                                    <li><a href="#">tahun 2011</a></li>
+                                                    <li><a href="#">tahun 2012</a></li>
+                                                    <li><a href="#">tahun 2013</a></li>
+                                                    <li><a href="#">tahun 2014</a></li>
+                                                    <li><a href="#">tahun 2015</a></li>
+                                                  </div>
+                                                </div>
                                               </ul>
                                           </div>
                                           <div class="col-md-6">

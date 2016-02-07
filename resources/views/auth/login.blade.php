@@ -12,7 +12,7 @@
 
         @include('includes.status')
 
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Silahkan Log In</h2>
 
         <label for="inputEmail" class="sr-only">Email address</label>
         {!! Form::email('email', null, [
@@ -43,14 +43,24 @@
 
             </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block login-btn" type="submit">Sign in</button>
-        <p><a href="{{ route('auth.password') }}">Forgot password?</a> Belum punya akun? <a href="{{ route('auth.register') }}">Daftar</a></p>
+        <button class="btn btn-md btn-primary btn-block login-btn" type="submit">Log in</button>
+        <p><a href="{{ route('auth.password') }}">Lupa password?</a> Belum punya akun? <a href="{{ route('auth.register') }}">Daftar</a></p>
 
         <p class="or-social">atau masuk menggunakan</p>
 
-        <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-lg btn-primary btn-block facebook" type="submit">Facebook</a>
-        <!-- <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-lg btn-primary btn-block twitter" type="submit">Twitter</a> -->
-        <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-lg btn-primary btn-block google" type="submit">Google+</a>
+        {{-- <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-md btn-primary btn-block facebook" type="submit">Facebook</a> --}}
+        {{-- <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-lg btn-primary btn-block twitter" type="submit">Twitter</a> --}}
+        {{-- <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-md btn-primary btn-block google" type="submit">Google+</a> --}}
+
+        <div class="row">
+          <div class="col-md-6">
+            <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-md btn-primary btn-block facebook" type="submit">Facebook</a>
+          </div>
+          <div class="col-md-6">
+            <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-md btn-primary btn-block google" type="submit">Google+</a>
+          </div>
+        </div>
+
 
         {!! Form::close() !!}
 

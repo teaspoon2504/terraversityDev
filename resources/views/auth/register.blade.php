@@ -11,7 +11,10 @@
 
         @include('includes.errors')
 
-        <h2 class="form-signin-heading">Please register</h2>
+        <h2 class="form-signin-heading">Daftar Akun Terraversity</h2>
+
+
+
 
         <label for="inputEmail" class="sr-only">Email address</label>
         {!! Form::email('email', null, [
@@ -24,32 +27,36 @@
             'data-parsley-type'             => 'email'
         ]) !!}
 
-        <label for="inputFirstName" class="sr-only">First name</label>
-        {!! Form::text('first_name', null, [
-            'class'                         => 'form-control',
-            'placeholder'                   => 'First name',
-            'required',
-            'id'                            => 'inputFirstName',
-            'data-parsley-required-message' => 'First Name is required',
-            'data-parsley-trigger'          => 'change focusout',
-            'data-parsley-pattern'          => '/^[a-zA-Z]*$/',
-            'data-parsley-minlength'        => '2',
-            'data-parsley-maxlength'        => '32'
-        ]) !!}
-
-        <label for="inputLastName" class="sr-only">Last name</label>
-        {!! Form::text('last_name', null, [
-            'class'                         => 'form-control',
-            'placeholder'                   => 'Last name',
-            'required',
-            'id'                            => 'inputLastName',
-            'data-parsley-required-message' => 'Last Name is required',
-            'data-parsley-trigger'          => 'change focusout',
-            'data-parsley-pattern'          => '/^[a-zA-Z]*$/',
-            'data-parsley-minlength'        => '2',
-            'data-parsley-maxlength'        => '32'
-        ]) !!}
-
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="inputFirstName" class="sr-only">First name</label>
+            {!! Form::text('first_name', null, [
+                'class'                         => 'form-control',
+                'placeholder'                   => 'First name',
+                'required',
+                'id'                            => 'inputFirstName',
+                'data-parsley-required-message' => 'First Name is required',
+                'data-parsley-trigger'          => 'change focusout',
+                'data-parsley-pattern'          => '/^[a-zA-Z]*$/',
+                'data-parsley-minlength'        => '2',
+                'data-parsley-maxlength'        => '32'
+            ]) !!}
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="inputLastName" class="sr-only">Last name</label>
+            {!! Form::text('last_name', null, [
+                'class'                         => 'form-control',
+                'placeholder'                   => 'Last name',
+                'required',
+                'id'                            => 'inputLastName',
+                'data-parsley-required-message' => 'Last Name is required',
+                'data-parsley-trigger'          => 'change focusout',
+                'data-parsley-pattern'          => '/^[a-zA-Z]*$/',
+                'data-parsley-minlength'        => '2',
+                'data-parsley-maxlength'        => '32'
+            ]) !!}
+          </div>
+        </div>
 
         <label for="inputPassword" class="sr-only">Password</label>
         {!! Form::password('password', [
@@ -62,7 +69,6 @@
             'data-parsley-minlength'        => '6',
             'data-parsley-maxlength'        => '20'
         ]) !!}
-
 
         <label for="inputPasswordConfirm" class="sr-only has-warning">Confirm Password</label>
         {!! Form::password('password_confirmation', [

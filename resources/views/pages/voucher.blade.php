@@ -83,13 +83,13 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        <a href="#">
+        <a href="https://www.bukalapak.com/terraversity">
           <img src="{!!asset('assets/images/content/logo_bukalapak.png')!!}" class="hover-grayscale img-responsive center-block">
         </a>
 
       </div>
       <div class="col-md-6">
-        <a href="#">
+        <a href="https://www.tokopedia.com/terraversity">
           <img src="{!!asset('assets/images/content/logo_tokopedia.png')!!}" class="hover-grayscale img-responsive center-block">
         </a>
 
