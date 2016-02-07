@@ -38,23 +38,26 @@
         <!-- Page Content -->
         <section class="full-page-coba">
             <div class="row">
-                <div class="col-md-8">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
+                <div class="col-md-12">
+                    <h3 class="text-center">Pendahuluan</h3>
+                    <iframe class="video-materi center-block" width="560" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="col-md-4">
+            </div> 
+            <div class="row">
+                <div class="col-md-12">
                     <div class="bab">
                         
-                        <div class="isi-bab">
-                        <h3 class="text-center">BAB</h3>
+                        <div class="isi-bab text-center">
+                       <!--  <h3 class="text-center">BAB</h3> -->
                         <hr>
-                            <p><a class="fisika" href="#">bab 1</a></p>
-                            <p><a class="fisika" href="#">bab 1</a></p>
-                            <p><a class="fisika" href="#">bab 1</a></p>
-                            <p><a class="fisika" href="#">bab 1</a></p>
+                            <a class="fisika" href="#">bab 1</a>
+                            <a class="fisika" href="#">bab 1</a>
+                            <a class="fisika" href="#">bab 1</a>
+                            <a class="fisika" href="#">bab 1</a>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             
         </section>
 

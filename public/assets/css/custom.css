@@ -790,3 +790,26 @@ overflow: auto;
 #wrapper{
   background: #f8f8f8;
 }
+
+.isi-bab{
+  padding: 10px;
+}
+
+.isi-bab a{
+padding: 5px;
+margin: 5px;
+background: #E7E7E7;
+}
+.isi-bab p a:hover,.isi-bab p a:active{
+background: #00A885;
+color: white;
+  transition: all 0.5s ease 0s;
+}
+.isi-bab .fisika:hover, .isi-bab .fisika:active{
+background: #00A885;
+color: white;
+  transition: all 0.5s ease 0s;
+}
+.video-materi{
+  padding: 10px;
+}

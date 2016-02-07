@@ -17,17 +17,3 @@ section{
     box-sizing:border-box;
 }
 
-.isi-bab{
-	padding: 10px;
-}
-
-.isi-bab p a{
-	padding: 5px;
-	border-left: 5px solid #E6E6E6;
-}
-.isi-bab p a:hover,.isi-bab p a:active{
-	background: none;
-}
-.isi-bab .fisika:hover, .isi-bab .fisika:active{
-	border-left: 5px solid #00A885;
-}
