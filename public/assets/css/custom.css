@@ -805,7 +805,7 @@ background: #00A885;
 color: white;
   transition: all 0.5s ease 0s;
 }
-.isi-bab .fisika:hover, .isi-bab .fisika:active{
+.isi-bab .tombolbab:hover, .isi-bab .tombolbab:active{
 background: #00A885;
 color: white;
   transition: all 0.5s ease 0s;

@@ -11,11 +11,7 @@
 
         @include('includes.errors')
 
-        <h2 class="form-signin-heading">Daftar Akun Terraversity</h2>
-
-
-
-
+        <h3 class="form-signin-heading">Daftar Akun Terraversity</h3>
         <label for="inputEmail" class="sr-only">Email address</label>
         {!! Form::email('email', null, [
             'class'                         => 'form-control',
@@ -26,7 +22,6 @@
             'data-parsley-trigger'          => 'change focusout',
             'data-parsley-type'             => 'email'
         ]) !!}
-
         <div class="row">
           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
             <label for="inputFirstName" class="sr-only">First name</label>
@@ -57,7 +52,6 @@
             ]) !!}
           </div>
         </div>
-
         <label for="inputPassword" class="sr-only">Password</label>
         {!! Form::password('password', [
             'class'                         => 'form-control',
@@ -69,7 +63,6 @@
             'data-parsley-minlength'        => '6',
             'data-parsley-maxlength'        => '20'
         ]) !!}
-
         <label for="inputPasswordConfirm" class="sr-only has-warning">Confirm Password</label>
         {!! Form::password('password_confirmation', [
             'class'                         => 'form-control',
@@ -84,15 +77,21 @@
 
         <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>
 
-        <button class="btn btn-lg btn-primary btn-block register-btn" type="submit">Register</button>
+        <button class="btn btn-md btn-primary btn-block register-btn" type="submit">Register</button>
 
-        <p class="or-social">atau daftar menggunakan</p>
+        <p class="or-social">atau masuk menggunakan</p>
 
-        <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-lg btn-primary btn-block facebook" type="submit">Facebook</a>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-md btn-primary btn-block facebook" type="submit">Facebook</a>
+
+          </div>
+          <div class="col-md-6">
+            <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-md btn-primary btn-block google" type="submit">Google+</a>
+
+          </div>
+        </div>
         <!-- <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-lg btn-primary btn-block twitter" type="submit">Twitter</a> -->
-        <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-lg btn-primary btn-block google" type="submit">Google+</a>
-
-
         {!! Form::close() !!}
 
 @stop
@@ -107,7 +106,8 @@
     </script>
 
     {!! HTML::script('/assets/plugins/parsley.min.js') !!}
+    {!! HTML::script('https://www.google.com/recaptcha/api.js') !!}
 
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 
 @stop
