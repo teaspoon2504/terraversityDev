@@ -80,4 +80,27 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     {
         return $this->hasMany('App\Models\Social');
     }
+
+    public function getSubscribedAttribute()
+    {
+        // Cari kupon untuk user ini
+        $kupon = \App\Kupon::whereUserId($this->id)->first();
+        if (!$kupon) {
+            // Kupon tidak ada
+            return false;
+        }
+
+        // Bandingkan aktif timestamp < 30 hari
+        $selisihAktifasi = $kupon->activated_at->diffInDays(Carbon\Carbon::now());
+        if ($selisihAktifasi >= 0 && $selisihAktifasi <= 30) {
+            // Berlaku
+            return true;
+        } else if ($selisihAktifasi < 0) {
+            // Kupon belum aktif
+            return false;
+        } else if ($selisihAktifasi > 30) {
+            // Kupon expired
+            return false;
+        }
+    }
 }
