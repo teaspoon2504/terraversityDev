@@ -57,17 +57,14 @@ private function generateRandomString($length = 10) {
 
 
  public function subscribe(Request $request){
-        $KuponAda = \App\Kupon::Where('kode', $request->kode)-> first();
-        if ($KuponAda){
-            $user = \Auth::user();
-            $user->subscribed=1;
-            $user->save();
-            $KuponAda->delete();
+        $kuponAkanAktif = \App\Kupon::Where('kode', $request->kode)->first();
+        if ($kuponAkanAktif) {
+            $kuponAkanAktif->activated_at = Carbon\Carbon::now();
+            $kuponAkanAktif->save();
             return view('panels.user.voucher');
-        }else{
+        } else {
             return view('panels.user.kuponsalah');
         }
-
     }
 
     /**
