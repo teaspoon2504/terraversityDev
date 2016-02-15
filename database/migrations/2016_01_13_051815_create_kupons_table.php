@@ -15,6 +15,11 @@ class CreateKuponsTable extends Migration
        Schema::create('kupons', function (Blueprint $table) {
             $table->increments('id');
             $table->string('kode');
+
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
+
+            $table->date('activated_at');
             $table->timestamps();
         });
     }
