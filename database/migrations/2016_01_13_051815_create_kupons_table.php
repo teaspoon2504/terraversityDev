@@ -19,7 +19,7 @@ class CreateKuponsTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
 
-            $table->date('activated_at');
+            $table->dateTime('activated_at');
             $table->timestamps();
         });
     }
