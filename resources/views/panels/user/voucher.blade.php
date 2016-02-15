@@ -8,7 +8,7 @@
 
   <div class="container text-center center-block">
 
-    @if (!Auth::user()->subscribed == 0)
+    @if (Auth::user()->subscribed)
      Terimakasih Anda Telah Menjadi Member Premium
 
      Untuk melihat materi <a href="/user/materi">disini </a>
