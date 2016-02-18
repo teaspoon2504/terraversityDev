@@ -9,7 +9,6 @@ Route::get('/tentang-terraversity',           ['as' => $s . 'tentang',   'uses' 
 Route::get('/voucher-input',                        ['as' => $s . 'voucher',   'uses' => 'PagesController@getVoucher']);
 Route::get('/info-dvd',                       ['as' => $s . 'infodvd',   'uses' => 'PagesController@getInfodvd']);
 
-
 $a = 'auth.';
 Route::get('/login',            ['as' => $a . 'login',          'uses' => 'Auth\AuthController@getLogin']);
 Route::post('/login',           ['as' => $a . 'login-post',     'uses' => 'Auth\AuthController@postLogin']);
