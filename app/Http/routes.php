@@ -2,30 +2,12 @@
 
 $s = 'public.';
 Route::get('/',                             ['as' => $s . 'home',   'uses' => 'PagesController@getHome']);
-Route::get('/matematika-dasar-bab',         ['as' => $s . 'matematikadasarbab',   'uses' => 'PagesController@getMatematikaDasarBab']);
-Route::get('/matematika-ipa-bab',           ['as' => $s . 'matematikaipabab',   'uses' => 'PagesController@getMatematikaIpaBab']);
-Route::get('/fisika-bab',                   ['as' => $s . 'fisikabab',   'uses' => 'PagesController@getFisikaBab']);
-Route::get('/kimia-bab',                    ['as' => $s . 'kimiabab',   'uses' => 'PagesController@getKimiaBab']);
-Route::get('/biologi-bab',                  ['as' => $s . 'biologibab',   'uses' => 'PagesController@getBiologiBab']);
-Route::get('/inggris-bab',                  ['as' => $s . 'inggrisbab',   'uses' => 'PagesController@getInggrisBab']);
-Route::get('/indonesia-bab',                ['as' => $s . 'indonesiabab',   'uses' => 'PagesController@getIndonesiaBab']);
-Route::get('/tpa-bab',                      ['as' => $s . 'tpabab',   'uses' => 'PagesController@getTpaBab']);
-
-Route::get('/matematika-dasar-tahun',         ['as' => $s . 'matematikadasartahun',   'uses' => 'PagesController@getMatematikaDasarTahun']);
-Route::get('/matematika-ipa-tahun',           ['as' => $s . 'matematikaipatahun',   'uses' => 'PagesController@getMatematikaIpaTahun']);
-Route::get('/fisika-tahun',                   ['as' => $s . 'fisikatahun',   'uses' => 'PagesController@getFisikaTahun']);
-Route::get('/kimia-tahun',                    ['as' => $s . 'kimiatahun',   'uses' => 'PagesController@getKimiaTahun']);
-Route::get('/biologi-tahun',                  ['as' => $s . 'biologitahun',   'uses' => 'PagesController@getBiologiTahun']);
-Route::get('/inggris-tahun',                  ['as' => $s . 'inggristahun',   'uses' => 'PagesController@getInggrisTahun']);
-Route::get('/indonesia-tahun',                ['as' => $s . 'indonesiatahun',   'uses' => 'PagesController@getIndonesiaTahun']);
-Route::get('/tpa-tahun',                      ['as' => $s . 'tpatahun',   'uses' => 'PagesController@getTpaTahun']);
 
 Route::get('/panduan',                        ['as' => $s . 'panduan',   'uses' => 'PagesController@getPanduan']);
 Route::get('/faq',                            ['as' => $s . 'faq',   'uses' => 'PagesController@getFaq']);
 Route::get('/tentang-terraversity',           ['as' => $s . 'tentang',   'uses' => 'PagesController@getTentang']);
 Route::get('/voucher-input',                        ['as' => $s . 'voucher',   'uses' => 'PagesController@getVoucher']);
 Route::get('/info-dvd',                       ['as' => $s . 'infodvd',   'uses' => 'PagesController@getInfodvd']);
-
 
 
 $a = 'auth.';
