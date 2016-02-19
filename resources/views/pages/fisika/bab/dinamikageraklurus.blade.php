@@ -35,36 +35,6 @@
 
             </ul>
         </div>
-        <section class="full-page-coba" id="pendahuluan">
-        <div id="page-content-wrapper konten-nav">
-            <div class="container-fluid">
-
-              <div class="row">
-                  <div class="col-md-12">
-                    <br>
-                    <br>
-                      <h3 class="text-center">Pendahuluan</h3>
-                      <iframe class="video-materi center-block" width="560" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="bab">
-
-                          <div class="isi-bab text-center">
-                          <hr>
-                              <a class="tombolbab" href="#">bab 1</a>
-                              <a class="tombolbab" href="#">bab 1</a>
-                              <a class="tombolbab" href="#">bab 1</a>
-                              <a class="tombolbab" href="#">bab 1</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-            </div>
-        </div>
-        </section>
 
         <section class="full-page-coba" id="dinamikageraklurus">
         <div id="page-content-wrapper">
@@ -124,7 +94,6 @@
             </div>
         </div>
         </section>
-
 
 
         <div class="row" id="konten2001">

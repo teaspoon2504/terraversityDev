@@ -43,11 +43,13 @@
                   <div class="col-md-12">
                     <br>
                     <br>
-                      <h3 class="text-center">Pendahuluan</h3>
-                      <iframe class="video-materi center-block" width="560" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
+                      <h3 class="text-center">Besaran dan Satuan</h3>
+                      <div class="bab">
+                      <iframe width="420" height="315" src="https://www.youtube.com/embed/Y_68DpUqcqU" frameborder="0" allowfullscreen></iframe>
+                      </div>
                   </div>
               </div>
-              <div class="row">
+              <!-- <div class="row">
                   <div class="col-md-12">
                       <div class="bab">
 
@@ -60,11 +62,15 @@
                           </div>
                       </div>
                   </div>
-              </div>
+              </div> -->
 
             </div>
         </div>
         </section>
+
+
+
+
         <div class="row" id="konten2001">
             <div class="col-lg-12">
                         <h2>Silahkan <a href="{{ route('auth.login') }}">Log In</a> untuk melihat Video Tutorial ini</h2>
@@ -75,6 +81,8 @@
               <iframe width="560" height="355" src="#" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
+
+
 
 </div>
 @section('footer')

@@ -47,7 +47,7 @@
                       <iframe class="video-materi center-block" width="560" height="315" src="https://www.youtube.com/embed/QSiNWEsZGRI" frameborder="0" allowfullscreen></iframe>
                   </div>
               </div>
-              <div class="row">
+              <!-- <div class="row">
                   <div class="col-md-12">
                       <div class="bab">
 
@@ -60,7 +60,7 @@
                           </div>
                       </div>
                   </div>
-              </div>
+              </div> -->
 
             </div>
         </div>
