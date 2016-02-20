@@ -16,21 +16,17 @@
                 <li class="sidebar-brand">
                     FISIKA
                 </li>
-                <li>
-                    <a href="#pendahuluan">Pendahuluan</a>
-                </li>
-                <li><a href="#dinamikageraklurus">Dinamika Gerak Lurus</a></li>
-                <li><a href="#dinamikarotasi">Dinamika Rotasi</a></li>
-                <li><a href="#fisikamodern">Fisika Modern</a></li>
-                <li><a href="#fluida">Fluida</a></li>
-                <li><a href="#getarangelombangbunyi">Getaran,Gelombang dan Bunyi</a></li>
-                <li><a href="#induksimagnetikdanarusteganganbolakbalik">Induksi Magnetik Dan Arus Tegangan Bolak-Balik</a></li>
-                <li><a href="#kinematikageraklurus">Kinematika Gerak Lurus</a></li>
-                <li><a href="#listrik">Listrik</a></li>
-                <li><a href="#momentumdanimpuls">Momentum Dan Impuls</a></li>
-                <li><a href="#optik">Optik</a></li>
-                <li><a href="#suhudankalor">Suhu Dan Kalor</a></li>
-                <li><a href="#usahadanenergi">Usaha Dan Energi</a></li>
+                <li><a href="#">2005</a></li>
+                <li><a href="#">2006</a></li>
+                <li><a href="#">2007</a></li>
+                <li><a href="#">2008</a></li>
+                <li><a href="#">2009</a></li>
+                <li><a href="#">2010</a></li>
+                <li><a href="#">2011</a></li>
+                <li><a href="#">2012</a></li>
+                <li><a href="#">2013</a></li>
+                <li><a href="#">2014</a></li>
+                <li><a href="#">2015</a></li>
 
 
             </ul>

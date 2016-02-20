@@ -29,7 +29,6 @@
 <body>
 
 
-
 <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -92,17 +91,16 @@
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.') }}">tahun 2015</a></li>
+
+
+                                                <li><a href="{{ route('public.matdas09') }}">2009</a></li>
+                                                <li><a href="{{ route('public.matdas10') }}">2010</a></li>
+                                                <li><a href="{{ route('public.matdas11') }}">2011</a></li>
+                                                <li><a href="{{ route('public.matdas12') }}">2012</a></li>
+                                                <li><a href="{{ route('public.matdas13') }}">2013</a></li>
+                                                <li><a href="{{ route('public.matdas14') }}">2014</a></li>
+                                                <li><a href="{{ route('public.matdas15') }}">2015</a></li>
+
                                               </ul>
 
                                           </div>
@@ -110,9 +108,23 @@
                                             <ul class="tahunmatematikaDasar" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
+                                              <li><a href="#">Eksponen dan Logaritma</a></li>
+                                              <li><a href="#">Persamaan Kuadrat</a></li>
+                                              <li><a href="#">Fungsi Kuadrat</a></li>
+                                              <li><a href="#">Pertidaksamaan</a></li>
+                                              <li><a href="#">SPL dan Program Linear</a></li>
+                                              <li><a href="#">Logika</a></li>
+                                              <li><a href="#">Fungsi</a></li>
+                                              <li><a href="#">Turunan</a></li>
+                                              <li><a href="#">Persamaan Garis</a></li>
+                                              <li><a href="#">Trigonometri</a></li>
+                                              <li><a href="#">Peluang</a></li>
+                                              <li><a href="#">Bidang Datar</a></li>
+                                              <li><a href="#">Matriks</a></li>
+                                              <li><a href="#">Barisan dan Deret</a></li>
+                                              <li><a href="#">Dimensi tiga</a></li>
+                                              <li><a href="#">Statistika</a></li>
+                                              <li><a href="#">Materi Dasar</a></li>
                                             </ul>
 
                                           </div>
@@ -127,17 +139,19 @@
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+
+                                                <li><a href="#">MATIPA 2009 378</a></li>
+                                                <li><a href="#">MATIPA 2010 526</a></li>
+                                                <li><a href="#">MATIPA 2011 523</a></li>
+                                                <li><a href="#">MATIPA 2012 132</a></li>
+                                                <li><a href="#">MATIPA 2012 633</a></li>
+                                                <li><a href="#">MATIPA 2013 131</a></li>
+                                                <li><a href="#">MATIPA 2013 134</a></li>
+                                                <li><a href="#">MATIPA 2014 512</a></li>
+                                                <li><a href="#">MATIPA 2014 523</a></li>
+                                                <li><a href="#">MATIPA 2015 519</a></li>
+                                                <li><a href="#">MATIPA 2015 538</a></li>
+
                                               </ul>
 
                                           </div>
@@ -145,9 +159,25 @@
                                             <ul class="tahunmatematikaIpa" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
+                                              <li><a href="#">Pertidaksamaan</a></li>
+                                              <li><a href="#">Vektor</a></li>
+                                              <li><a href="#">Dimensi Tiga</a></li>
+                                              <li><a href="#">Integral</a></li>
+                                              <li><a href="#">Barisan dan Deret</a></li>
+                                              <li><a href="#">Turunan</a></li>
+                                              <li><a href="#">Fungsi</a></li>
+                                              <li><a href="#">Bangun Datar</a></li>
+                                              <li><a href="#">Trigonometri</a></li>
+                                              <li><a href="#">Suku Banyak</a></li>
+                                              <li><a href="#">Matematika IPA</a></li>
+                                              <li><a href="#">Limit</a></li>
+                                              <li><a href="#">Lingkaran</a></li>
+                                              <li><a href="#">Peluang</a></li>
+                                              <li><a href="#">Transformasi</a></li>
+                                              <li><a href="#">Persamaan Kuadrat</a></li>
+                                              <li><a href="#">Fungsi Kuadrat</a></li>
+                                              <li><a href="#">Eksponen dan Logaritma</a></li>
+                                              <li><a href="#">Matriks</a></li>
                                             </ul>
                                           </div>
                                       </div>
@@ -160,36 +190,36 @@
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+                                                <li><a href="#">tahun 2005</a></li>
+                                                <li><a href="#">tahun 2006</a></li>
+                                                <li><a href="#">tahun 2007</a></li>
+                                                <li><a href="#">tahun 2008</a></li>
+                                                <li><a href="#">tahun 2009</a></li>
+                                                <li><a href="#">tahun 2010</a></li>
+                                                <li><a href="#">tahun 2011</a></li>
+                                                <li><a href="#">tahun 2012</a></li>
+                                                <li><a href="#">tahun 2013</a></li>
+                                                <li><a href="#">tahun 2014</a></li>
+                                                <li><a href="#">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
                                             <ul class="tahunfisika" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Pendahuluan</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Dinamika Gerak Lurus</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Dinamika Rotasi</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Fisika Modern</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Fluida</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Getaran,Gelombang dan Bunyi</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Induksi Magnetik Dan Arus Tegangan Bolak-Balik</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Kinematika Gerak Lurus</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Listrik</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Momentum Dan Impuls</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Optik</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Suhu Dan Kalor</a></li>
-                                              <li><a href="{{ route('public.fisikabab') }}">Usaha Dan Energi</a></li>
+                                              <li><a href="{{ route('public.fisikapendahuluan') }}">Pendahuluan</a></li>
+                                              <li><a href="#">Dinamika Gerak Lurus</a></li>
+                                              <li><a href="#">Dinamika Rotasi</a></li>
+                                              <li><a href="#">Fisika Modern</a></li>
+                                              <li><a href="#">Fluida</a></li>
+                                              <li><a href="#">Getaran,Gelombang dan Bunyi</a></li>
+                                              <li><a href="#">Induksi Magnetik Dan Arus Tegangan Bolak-Balik</a></li>
+                                              <li><a href="#">Kinematika Gerak Lurus</a></li>
+                                              <li><a href="#">Listrik</a></li>
+                                              <li><a href="#">Momentum Dan Impuls</a></li>
+                                              <li><a href="#">Optik</a></li>
+                                              <li><a href="#">Suhu Dan Kalor</a></li>
+                                              <li><a href="#">Usaha Dan Energi</a></li>
                                             </ul>
                                           </div>
                                       </div>
@@ -202,26 +232,25 @@
                                               <ul class="tahunkimia scroll-menu" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+                                                <li><a href="#">tahun 2005</a></li>
+                                                <li><a href="#">tahun 2006</a></li>
+                                                <li><a href="#">tahun 2007</a></li>
+                                                <li><a href="#">tahun 2008</a></li>
+                                                <li><a href="#">tahun 2009</a></li>
+                                                <li><a href="#">tahun 2010</a></li>
+                                                <li><a href="#">tahun 2011</a></li>
+                                                <li><a href="#">tahun 2012</a></li>
+                                                <li><a href="#">tahun 2013</a></li>
+                                                <li><a href="#">tahun 2014</a></li>
+                                                <li><a href="#">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
                                             <ul class="tahunkimia" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">Bab 3</a></li>
+                                              <li><a href="#">Bab 1</a></li>
+
                                             </ul>
                                           </div>
                                       </div>
@@ -234,26 +263,34 @@
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+
+                                                <li><a href="#">BIOLOGI SBM 2005 480</a></li>
+                                                <li><a href="#">BIOLOGI SBM 2006 420</a></li>
+                                                <li><a href="#">BIOLOGI SBM 2007 350</a></li>
+                                                <li><a href="#">BIOLOGI SBM 2008 102</a></li>
+                                                <li><a href="#">BIOLOGI SBM 2009 378</a></li>
+                                                <li><a href="#">BIOLOGI SBM 2010 350</a></li>
+                                                <li><a href="#">BIOLOGI SBM 2013 131</a></li>
+
+
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
                                             <ul class="tahunbiologi" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.biologibab') }}">ipa Bab 1</a></li>
-                                              <li><a href="{{ route('public.biologibab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.biologibab') }}">Bab 3</a></li>
+                                              <li><a href="#">Sel</a></li>
+                                              <li><a href="#">Struktur Tumbuhan</a></li>
+                                              <li><a href="#">Reproduksi Sel</a></li>
+                                              <li><a href="#">Struktur serta Fungsi Tubuh Hewan dan Manusia</a></li>
+                                              <li><a href="#">Genetika dan Evolusi</a></li>
+                                              <li><a href="#">Biologi dan Lingkungan</a></li>
+                                              <li><a href="#">Metabolisme</a></li>
+                                              <li><a href="#">Bioteknologi</a></li>
+                                              <li><a href="#">Invertebrata</a></li>
+                                              <li><a href="#">Klasifikasi Mahluk Hidup</a></li>
+
+
                                             </ul>
                                           </div>
                                       </div>
@@ -266,26 +303,26 @@
                                               <ul class="tahuninggris scroll-menu">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+                                                <li><a href="#">tahun 2005</a></li>
+                                                <li><a href="#">tahun 2006</a></li>
+                                                <li><a href="#">tahun 2007</a></li>
+                                                <li><a href="#">tahun 2008</a></li>
+                                                <li><a href="#">tahun 2009</a></li>
+                                                <li><a href="#">tahun 2010</a></li>
+                                                <li><a href="#">tahun 2011</a></li>
+                                                <li><a href="#">tahun 2012</a></li>
+                                                <li><a href="#">tahun 2013</a></li>
+                                                <li><a href="#">tahun 2014</a></li>
+                                                <li><a href="#">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
                                             <ul class="tahuninggris">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 3</a></li>
+                                              <li><a href="#">Bab 1</a></li>
+                                              <li><a href="#">Bab 2</a></li>
+                                              <li><a href="#">Bab 3</a></li>
                                             </ul>
                                           </div>
                                       </div>
@@ -298,26 +335,26 @@
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+                                                <li><a href="#">tahun 2005</a></li>
+                                                <li><a href="#">tahun 2006</a></li>
+                                                <li><a href="#">tahun 2007</a></li>
+                                                <li><a href="#">tahun 2008</a></li>
+                                                <li><a href="#">tahun 2009</a></li>
+                                                <li><a href="#">tahun 2010</a></li>
+                                                <li><a href="#">tahun 2011</a></li>
+                                                <li><a href="#">tahun 2012</a></li>
+                                                <li><a href="#">tahun 2013</a></li>
+                                                <li><a href="#">tahun 2014</a></li>
+                                                <li><a href="#">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
                                             <ul class="tahunindo">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 3</a></li>
+                                              <li><a href="#">Bab 1</a></li>
+                                              <li><a href="#">Bab 2</a></li>
+                                              <li><a href="#">Bab 3</a></li>
                                             </ul>
                                           </div>
                                       </div>
@@ -330,26 +367,26 @@
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+                                                <li><a href="#">tahun 2005</a></li>
+                                                <li><a href="#">tahun 2006</a></li>
+                                                <li><a href="#">tahun 2007</a></li>
+                                                <li><a href="#">tahun 2008</a></li>
+                                                <li><a href="#">tahun 2009</a></li>
+                                                <li><a href="#">tahun 2010</a></li>
+                                                <li><a href="#">tahun 2011</a></li>
+                                                <li><a href="#">tahun 2012</a></li>
+                                                <li><a href="#">tahun 2013</a></li>
+                                                <li><a href="#">tahun 2014</a></li>
+                                                <li><a href="#">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
                                             <ul class="tahuntpa">
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.tpabab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.tpabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.tpabab') }}">Bab 3</a></li>
+                                              <li><a href="#">Bab 1</a></li>
+                                              <li><a href="#">Bab 2</a></li>
+                                              <li><a href="#">Bab 3</a></li>
                                             </ul>
                                           </div>
                                       </div>
@@ -358,422 +395,359 @@
                       </div>
                     </ul>
               </li>
-            @elseif(Auth::user()->email == 'eduterrajogja@terraversity.com')
+@elseif(Auth::user()->email == 'eduterrajogja@terraversity.com')
                 <li><a href="{{ route('public.home')  }}"  >Home</a></li>
                 <li><a href="/admin/home"  >Admin Area</a></li>
-            @else
+@else
+<li><a   href="{{ route('public.home')  }}" >Home</a></li>
+<li class="dropdown mega-dropdown">
+    <a href="" class="dropdown-toggle" data-toggle="dropdown"  >SBMPTN <span class="caret"></span></a>
+      <ul class="dropdown-menu mega-dropdown-menu">
 
-              <li><a   href="{{ route('public.home')  }}" >Home</a></li>
-              <li class="dropdown mega-dropdown">
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown"  >SBMPTN <span class="caret"></span></a>
-                    <ul class="dropdown-menu mega-dropdown-menu">
+        <div class="megamenunav">
 
-                      <div class="megamenunav">
+                    <li class="col-md-offset-2 col-sm-3 col-md-2">
+                       <ul class="cus-menu">
+                        <li class="cus-sub-menu">
+                        <a class="line-mtk-dasar" href="" id="matematikaDasar" > Matematika Dasar</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="cus-sub-menu"><a class="line-mtk-ipa" href="" id="matematikaIpa"> Matematika IPA</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="cus-sub-menu"><a class="line-fisika" href="" id="fisika">Fisika</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="cus-sub-menu"><a class="line-kimia" href="" id="kimia">Kimia</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="cus-sub-menu"><a class="line-biologi" href="" id="biologi">Biologi</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="cus-sub-menu"><a class="line-inggris" href="" id="inggris">Bahasa Inggris</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="cus-sub-menu"><a class="line-indo" href="" id="indo">Bahasa Indonesia</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="cus-sub-menu"><a class="line-tpa" href="" id="tpa">TPA</a>
+                          <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="divider"></li>
+                        </ul>
+                    </li>
 
-                                  <li class="col-md-offset-2 col-sm-3 col-md-2">
-                                     <ul class="cus-menu">
-                                      <li class="cus-sub-menu">
-                                      <a class="line-mtk-dasar" href="" id="matematikaDasar" > Matematika Dasar</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="cus-sub-menu"><a class="line-mtk-ipa" href="" id="matematikaIpa"> Matematika IPA</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="cus-sub-menu"><a class="line-fisika" href="" id="fisika">Fisika</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="cus-sub-menu"><a class="line-kimia" href="" id="kimia">Kimia</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="cus-sub-menu"><a class="line-biologi" href="" id="biologi">Biologi</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="cus-sub-menu"><a class="line-inggris" href="" id="inggris">Bahasa Inggris</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="cus-sub-menu"><a class="line-indo" href="" id="indo">Bahasa Indonesia</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="cus-sub-menu"><a class="line-tpa" href="" id="tpa">TPA</a>
-                                        <i class="fa fa-angle-right"></i>
-                                      </li>
-                                      <li class="divider"></li>
-                                      </ul>
-                                  </li>
-
-                                    <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-                                              <ul class="tahunmatematikaDasar" >
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-
-                                          </div>
-                                          <div class="col-md-6 scroll-menu">
-                                            <ul class="tahunmatematikaDasar" >
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">matematika Bab 1</a></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
-                                            </ul>
-
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahunmatematikaDasar"></div>
-
-                                    <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-
-                                              <ul class="tahunmatematikaIpa" >
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-
-                                          </div>
-                                          <div class=" col-md-6 scroll-menu">
-                                            <ul class="tahunmatematikaIpa" >
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">matematika Bab 1</a></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
-                                            </ul>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahunmatematikaIpa"></div>
-
-                                    <div class="menu-block-right bg-menu-right tahunfisika ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-                                              <ul class="tahunfisika" >
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-                                          </div>
-                                          <div class="col-md-6 scroll-menu">
-                                            <ul class="tahunfisika" >
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <div class="row">
-                                                <div class="col-xs-6">
-                                                  <li><a href="/user/fisika-bab#pendahuluan">Pendahuluan</a></li>
-                                                  <li><a href="/user/fisika-bab#dinamikageraklurus">Dinamika Gerak Lurus</a></li>
-                                                  <li><a href="/user/fisika-bab#dinamikarotasi">Dinamika Rotasi</a></li>
-                                                  <li><a href="/user/fisika-bab#fisikamodern">Fisika Modern</a></li>
-                                                  <li><a href="/user/fisika-bab#fluida">Fluida</a></li>
-                                                  <li><a href="/user/fisika-bab#getarangelombangdanbunyi">Getaran,Gelombang dan Bunyi</a></li>
-                                                  <li><a href="/user/fisika-bab#induksimagnetik">Induksi Magnetik Dan Arus Tegangan Bolak-Balik</a></li>
-                                                  <li><a href="/user/fisika-bab#kinematikageraklurus">Kinematika Gerak Lurus</a></li>
-                                                </div>
-                                                <div class="col-xs-6">
-                                                  <li><a href="/user/fisika-bab#listrik">Listrik</a></li>
-                                                  <li><a href="/user/fisika-bab#momentumdanimpuls">Momentum Dan Impuls</a></li>
-                                                  <li><a href="/user/fisika-bab#optik">Optik</a></li>
-                                                  <li><a href="/user/fisika-bab#suhudankalor">Suhu Dan Kalor</a></li>
-                                                  <li><a href="/user/fisika-bab#usahadanenergi">Usaha Dan Energi</a></li>
-                                                </div>
-                                              </div>
+                      <div class="menu-block-right bg-menu-right tahunmatematikaDasar ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+                                <ul class="tahunmatematikaDasar" >
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
 
 
-                                            </ul>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahunfisika"></div>
+                                  <li><a href="{{ route('public.matdas09') }}">2009</a></li>
+                                  <li><a href="{{ route('public.matdas10') }}">2010</a></li>
+                                  <li><a href="{{ route('public.matdas11') }}">2011</a></li>
+                                  <li><a href="{{ route('public.matdas12') }}">2012</a></li>
+                                  <li><a href="{{ route('public.matdas13') }}">2013</a></li>
+                                  <li><a href="{{ route('public.matdas14') }}">2014</a></li>
+                                  <li><a href="{{ route('public.matdas15') }}">2015</a></li>
 
-                                    <div class="menu-block-right bg-menu-right tahunkimia ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-                                              <ul class="tahunkimia" >
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-                                          </div>
-                                          <div class="col-md-6 scroll-menu">
-                                            <ul class="tahunkimia" >
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">ipa Bab 1</a></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">Bab 3</a></li>
-                                            </ul>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahunkimia"></div>
+                                </ul>
 
-                                    <div class="menu-block-right bg-menu-right tahunbiologi ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-                                              <ul class="tahunbiologi" >
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-                                          </div>
-                                          <div class="col-md-6 scroll-menu">
-                                            <ul class="tahunbiologi" >
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <li><a href="{{ route('public.biologibab') }}">ipa Bab 1</a></li>
-                                              <li><a href="{{ route('public.biologibab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.biologibab') }}">Bab 3</a></li>
-                                            </ul>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahunbiologi"></div>
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahunmatematikaDasar" >
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Eksponen dan Logaritma</a></li>
+                                <li><a href="#">Persamaan Kuadrat</a></li>
+                                <li><a href="#">Fungsi Kuadrat</a></li>
+                                <li><a href="#">Pertidaksamaan</a></li>
+                                <li><a href="#">SPL dan Program Linear</a></li>
+                                <li><a href="#">Logika</a></li>
+                                <li><a href="#">Fungsi</a></li>
+                                <li><a href="#">Turunan</a></li>
+                                <li><a href="#">Persamaan Garis</a></li>
+                                <li><a href="#">Trigonometri</a></li>
+                                <li><a href="#">Peluang</a></li>
+                                <li><a href="#">Bidang Datar</a></li>
+                                <li><a href="#">Matriks</a></li>
+                                <li><a href="#">Barisan dan Deret</a></li>
+                                <li><a href="#">Dimensi tiga</a></li>
+                                <li><a href="#">Statistika</a></li>
+                                <li><a href="#">Materi Dasar</a></li>
+                              </ul>
 
-                                    <div class="menu-block-right bg-menu-right tahuninggris ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-                                              <ul class="tahuninggris">
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-                                          </div>
-                                          <div class="col-md-6 scroll-menu">
-                                            <ul class="tahuninggris">
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <li><a href="{{ route('public.inggrisbab') }}">english Bab 1</a></li>
-                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.inggrisbab') }}">Bab 3</a></li>
-                                            </ul>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahuninggris"></div>
-
-                                    <div class="menu-block-right bg-menu-right tahunindo ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-                                              <ul class="tahunindo">
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-                                          </div>
-                                          <div class="col-md-6 scroll-menu">
-                                            <ul class="tahunindo">
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <li><a href="{{ route('public.indonesiabab') }}">indonesia Bab 1</a></li>
-                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.indonesiabab') }}">Bab 3</a></li>
-                                            </ul>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahunindo"></div>
-
-                                    <div class="menu-block-right bg-menu-right tahuntpa ">
-                                      <div class="row scroll-menu">
-                                          <div class="col-md-6 scroll-menu">
-                                              <ul class="tahuntpa">
-                                                <li >Berdasarkan Tahun</li>
-                                                <li class="divider"></li>
-                                                <div class="row">
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2000</a></li>
-                                                    <li><a href="#">tahun 2001</a></li>
-                                                    <li><a href="#">tahun 2002</a></li>
-                                                    <li><a href="#">tahun 2003</a></li>
-                                                    <li><a href="#">tahun 2004</a></li>
-                                                    <li><a href="#">tahun 2005</a></li>
-                                                    <li><a href="#">tahun 2006</a></li>
-                                                    <li><a href="#">tahun 2007</a></li>
-                                                  </div>
-                                                  <div class="col-xs-6">
-                                                    <li><a href="#">tahun 2008</a></li>
-                                                    <li><a href="#">tahun 2009</a></li>
-                                                    <li><a href="#">tahun 2010</a></li>
-                                                    <li><a href="#">tahun 2011</a></li>
-                                                    <li><a href="#">tahun 2012</a></li>
-                                                    <li><a href="#">tahun 2013</a></li>
-                                                    <li><a href="#">tahun 2014</a></li>
-                                                    <li><a href="#">tahun 2015</a></li>
-                                                  </div>
-                                                </div>
-                                              </ul>
-                                          </div>
-                                          <div class="col-md-6 scroll-menu">
-                                            <ul class="tahuntpa">
-                                              <li >Berdasarkan Bab</li>
-                                              <li class="divider"></li>
-                                              <li><a href="{{ route('public.tpabab') }}">indonesia Bab 1</a></li>
-                                              <li><a href="{{ route('public.tpabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.tpabab') }}">Bab 3</a></li>
-                                            </ul>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="bg-block-menu-right tahuntpa"></div>
+                            </div>
+                        </div>
                       </div>
-                    </ul>
-              </li>
+                      <div class="bg-block-menu-right tahunmatematikaDasar"></div>
+
+                      <div class="menu-block-right bg-menu-right tahunmatematikaIpa ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+
+                                <ul class="tahunmatematikaIpa" >
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
+
+                                  <li><a href="#">MATIPA 2009 378</a></li>
+                                  <li><a href="#">MATIPA 2010 526</a></li>
+                                  <li><a href="#">MATIPA 2011 523</a></li>
+                                  <li><a href="#">MATIPA 2012 132</a></li>
+                                  <li><a href="#">MATIPA 2012 633</a></li>
+                                  <li><a href="#">MATIPA 2013 131</a></li>
+                                  <li><a href="#">MATIPA 2013 134</a></li>
+                                  <li><a href="#">MATIPA 2014 512</a></li>
+                                  <li><a href="#">MATIPA 2014 523</a></li>
+                                  <li><a href="#">MATIPA 2015 519</a></li>
+                                  <li><a href="#">MATIPA 2015 538</a></li>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahunmatematikaIpa" >
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Pertidaksamaan</a></li>
+                                <li><a href="#">Vektor</a></li>
+                                <li><a href="#">Dimensi Tiga</a></li>
+                                <li><a href="#">Integral</a></li>
+                                <li><a href="#">Barisan dan Deret</a></li>
+                                <li><a href="#">Turunan</a></li>
+                                <li><a href="#">Fungsi</a></li>
+                                <li><a href="#">Bangun Datar</a></li>
+                                <li><a href="#">Trigonometri</a></li>
+                                <li><a href="#">Suku Banyak</a></li>
+                                <li><a href="#">Matematika IPA</a></li>
+                                <li><a href="#">Limit</a></li>
+                                <li><a href="#">Lingkaran</a></li>
+                                <li><a href="#">Peluang</a></li>
+                                <li><a href="#">Transformasi</a></li>
+                                <li><a href="#">Persamaan Kuadrat</a></li>
+                                <li><a href="#">Fungsi Kuadrat</a></li>
+                                <li><a href="#">Eksponen dan Logaritma</a></li>
+                                <li><a href="#">Matriks</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="bg-block-menu-right tahunmatematikaIpa"></div>
+
+                      <div class="menu-block-right bg-menu-right tahunfisika ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+                                <ul class="tahunfisika" >
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">tahun 2005</a></li>
+                                  <li><a href="#">tahun 2006</a></li>
+                                  <li><a href="#">tahun 2007</a></li>
+                                  <li><a href="#">tahun 2008</a></li>
+                                  <li><a href="#">tahun 2009</a></li>
+                                  <li><a href="#">tahun 2010</a></li>
+                                  <li><a href="#">tahun 2011</a></li>
+                                  <li><a href="#">tahun 2012</a></li>
+                                  <li><a href="#">tahun 2013</a></li>
+                                  <li><a href="#">tahun 2014</a></li>
+                                  <li><a href="#">tahun 2015</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahunfisika" >
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Pendahuluan</a></li>
+                                <li><a href="#">Dinamika Gerak Lurus</a></li>
+                                <li><a href="#">Dinamika Rotasi</a></li>
+                                <li><a href="#">Fisika Modern</a></li>
+                                <li><a href="#">Fluida</a></li>
+                                <li><a href="#">Getaran,Gelombang dan Bunyi</a></li>
+                                <li><a href="#">Induksi Magnetik Dan Arus Tegangan Bolak-Balik</a></li>
+                                <li><a href="#">Kinematika Gerak Lurus</a></li>
+                                <li><a href="#">Listrik</a></li>
+                                <li><a href="#">Momentum Dan Impuls</a></li>
+                                <li><a href="#">Optik</a></li>
+                                <li><a href="#">Suhu Dan Kalor</a></li>
+                                <li><a href="#">Usaha Dan Energi</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="bg-block-menu-right tahunfisika"></div>
+
+                      <div class="menu-block-right bg-menu-right tahunkimia ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+                                <ul class="tahunkimia scroll-menu" >
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">tahun 2005</a></li>
+                                  <li><a href="#">tahun 2006</a></li>
+                                  <li><a href="#">tahun 2007</a></li>
+                                  <li><a href="#">tahun 2008</a></li>
+                                  <li><a href="#">tahun 2009</a></li>
+                                  <li><a href="#">tahun 2010</a></li>
+                                  <li><a href="#">tahun 2011</a></li>
+                                  <li><a href="#">tahun 2012</a></li>
+                                  <li><a href="#">tahun 2013</a></li>
+                                  <li><a href="#">tahun 2014</a></li>
+                                  <li><a href="#">tahun 2015</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahunkimia" >
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Bab 1</a></li>
+
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="bg-block-menu-right tahunkimia"></div>
+
+                      <div class="menu-block-right bg-menu-right tahunbiologi ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+                                <ul class="tahunbiologi" >
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
+
+                                  <li><a href="#">BIOLOGI SBM 2005 480</a></li>
+                                  <li><a href="#">BIOLOGI SBM 2006 420</a></li>
+                                  <li><a href="#">BIOLOGI SBM 2007 350</a></li>
+                                  <li><a href="#">BIOLOGI SBM 2008 102</a></li>
+                                  <li><a href="#">BIOLOGI SBM 2009 378</a></li>
+                                  <li><a href="#">BIOLOGI SBM 2010 350</a></li>
+                                  <li><a href="#">BIOLOGI SBM 2013 131</a></li>
 
 
+                                </ul>
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahunbiologi" >
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Sel</a></li>
+                                <li><a href="#">Struktur Tumbuhan</a></li>
+                                <li><a href="#">Reproduksi Sel</a></li>
+                                <li><a href="#">Struktur serta Fungsi Tubuh Hewan dan Manusia</a></li>
+                                <li><a href="#">Genetika dan Evolusi</a></li>
+                                <li><a href="#">Biologi dan Lingkungan</a></li>
+                                <li><a href="#">Metabolisme</a></li>
+                                <li><a href="#">Bioteknologi</a></li>
+                                <li><a href="#">Invertebrata</a></li>
+                                <li><a href="#">Klasifikasi Mahluk Hidup</a></li>
 
 
-            @endif
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="bg-block-menu-right tahunbiologi"></div>
+
+                      <div class="menu-block-right bg-menu-right tahuninggris ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+                                <ul class="tahuninggris scroll-menu">
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">tahun 2005</a></li>
+                                  <li><a href="#">tahun 2006</a></li>
+                                  <li><a href="#">tahun 2007</a></li>
+                                  <li><a href="#">tahun 2008</a></li>
+                                  <li><a href="#">tahun 2009</a></li>
+                                  <li><a href="#">tahun 2010</a></li>
+                                  <li><a href="#">tahun 2011</a></li>
+                                  <li><a href="#">tahun 2012</a></li>
+                                  <li><a href="#">tahun 2013</a></li>
+                                  <li><a href="#">tahun 2014</a></li>
+                                  <li><a href="#">tahun 2015</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahuninggris">
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Bab 1</a></li>
+                                <li><a href="#">Bab 2</a></li>
+                                <li><a href="#">Bab 3</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="bg-block-menu-right tahuninggris"></div>
+
+                      <div class="menu-block-right bg-menu-right tahunindo ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+                                <ul class="tahunindo">
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">tahun 2005</a></li>
+                                  <li><a href="#">tahun 2006</a></li>
+                                  <li><a href="#">tahun 2007</a></li>
+                                  <li><a href="#">tahun 2008</a></li>
+                                  <li><a href="#">tahun 2009</a></li>
+                                  <li><a href="#">tahun 2010</a></li>
+                                  <li><a href="#">tahun 2011</a></li>
+                                  <li><a href="#">tahun 2012</a></li>
+                                  <li><a href="#">tahun 2013</a></li>
+                                  <li><a href="#">tahun 2014</a></li>
+                                  <li><a href="#">tahun 2015</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahunindo">
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Bab 1</a></li>
+                                <li><a href="#">Bab 2</a></li>
+                                <li><a href="#">Bab 3</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="bg-block-menu-right tahunindo"></div>
+
+                      <div class="menu-block-right bg-menu-right tahuntpa ">
+                        <div class="row scroll-menu">
+                            <div class="col-md-6 scroll-menu">
+                                <ul class="tahuntpa">
+                                  <li >Berdasarkan Tahun</li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">tahun 2005</a></li>
+                                  <li><a href="#">tahun 2006</a></li>
+                                  <li><a href="#">tahun 2007</a></li>
+                                  <li><a href="#">tahun 2008</a></li>
+                                  <li><a href="#">tahun 2009</a></li>
+                                  <li><a href="#">tahun 2010</a></li>
+                                  <li><a href="#">tahun 2011</a></li>
+                                  <li><a href="#">tahun 2012</a></li>
+                                  <li><a href="#">tahun 2013</a></li>
+                                  <li><a href="#">tahun 2014</a></li>
+                                  <li><a href="#">tahun 2015</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 scroll-menu">
+                              <ul class="tahuntpa">
+                                <li >Berdasarkan Bab</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Bab 1</a></li>
+                                <li><a href="#">Bab 2</a></li>
+                                <li><a href="#">Bab 3</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="bg-block-menu-right tahuntpa"></div>
+        </div>
+      </ul>
+</li>
+@endif
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
