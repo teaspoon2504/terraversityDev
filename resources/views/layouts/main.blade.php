@@ -29,7 +29,6 @@
 <body>
 
 
-
 <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -92,9 +91,14 @@
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.matdas09') }}">2009</a></li>
+                                                <li><a href="{{ route('public.matdas10') }}">2010</a></li>
+                                                <li><a href="{{ route('public.matdas11') }}">2011</a></li>
+                                                <li><a href="{{ route('public.matdas12') }}">2012</a></li>
+                                                <li><a href="{{ route('public.matdas13') }}">2013</a></li>
+                                                <li><a href="{{ route('public.matdas14') }}">2014</a></li>
+                                                <li><a href="{{ route('public.matdas15') }}">2015</a></li>
+
                                               </ul>
 
                                           </div>
@@ -102,9 +106,23 @@
                                             <ul class="tahunmatematikaDasar" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bab 3</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Eksponen dan Logaritma</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Persamaan Kuadrat</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Fungsi Kuadrat</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Pertidaksamaan</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">SPL dan Program Linear</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Logika</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Fungsi</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Turunan</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Persamaan Garis</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Trigonometri</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Peluang</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Bidang Datar</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Matriks</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Barisan dan Deret</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Dimensi tiga</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Statistika</a></li>
+                                              <li><a href="{{ route('public.matematikadasarbab') }}">Materi Dasar</a></li>
                                             </ul>
 
                                           </div>
@@ -119,9 +137,17 @@
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.matematikaipatahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2009 378</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2010 526</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2011 523</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2012 132</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2012 633</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2013 131</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2013 134</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2014 512</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2014 523</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2015 519</a></li>
+                                                <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2015 538</a></li>
                                               </ul>
 
                                           </div>
@@ -129,9 +155,25 @@
                                             <ul class="tahunmatematikaIpa" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.matematikaipabab') }}">Bab 3</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Pertidaksamaan</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Vektor</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Dimensi Tiga</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Integral</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Barisan dan Deret</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Turunan</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Fungsi</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Bangun Datar</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Trigonometri</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Suku Banyak</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Matematika IPA</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Limit</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Lingkaran</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Peluang</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Transformasi</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Persamaan Kuadrat</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Fungsi Kuadrat</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Eksponen dan Logaritma</a></li>
+                                              <li><a href="{{ route('public.matematikaipabab') }}">Matriks</a></li>
                                             </ul>
                                           </div>
                                       </div>
@@ -188,8 +230,7 @@
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
                                               <li><a href="{{ route('public.kimiabab') }}">Bab 1</a></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.kimiabab') }}">Bab 3</a></li>
+
                                             </ul>
                                           </div>
                                       </div>
@@ -202,18 +243,32 @@
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.biologitahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2005 480</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2006 420</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2007 350</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2008 102</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2009 378</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2010 350</a></li>
+                                                <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2013 131</a></li>
+
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
                                             <ul class="tahunbiologi" >
                                               <li >Berdasarkan Bab</li>
                                               <li class="divider"></li>
-                                              <li><a href="{{ route('public.biologibab') }}">ipa Bab 1</a></li>
-                                              <li><a href="{{ route('public.biologibab') }}">Bab 2</a></li>
-                                              <li><a href="{{ route('public.biologibab') }}">Bab 3</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Sel</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Struktur Tumbuhan</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Reproduksi Sel</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Struktur serta Fungsi Tubuh Hewan dan Manusia</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Genetika dan Evolusi</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Biologi dan Lingkungan</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Metabolisme</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Bioteknologi</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Invertebrata</a></li>
+                                              <li><a href="{{ route('public.biologibab') }}">Klasifikasi Mahluk Hidup</a></li>
+
+
                                             </ul>
                                           </div>
                                       </div>
