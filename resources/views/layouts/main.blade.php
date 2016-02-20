@@ -503,7 +503,6 @@
                                   <li><a href="#">MATIPA 2014 523</a></li>
                                   <li><a href="#">MATIPA 2015 519</a></li>
                                   <li><a href="#">MATIPA 2015 538</a></li>
-
                                 </ul>
 
                             </div>
