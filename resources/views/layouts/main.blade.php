@@ -92,17 +92,17 @@
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
-                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2005</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2006</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2007</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2008</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2009</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2010</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2011</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2012</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2013</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2014</a></li>
+                                                <li><a href="{{ route('public.') }}">tahun 2015</a></li>
                                               </ul>
 
                                           </div>
