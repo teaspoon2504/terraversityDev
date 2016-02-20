@@ -91,6 +91,7 @@
                                               <ul class="tahunmatematikaDasar" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
+
                                                 <li><a href="{{ route('public.matdas09') }}">2009</a></li>
                                                 <li><a href="{{ route('public.matdas10') }}">2010</a></li>
                                                 <li><a href="{{ route('public.matdas11') }}">2011</a></li>
@@ -98,6 +99,7 @@
                                                 <li><a href="{{ route('public.matdas13') }}">2013</a></li>
                                                 <li><a href="{{ route('public.matdas14') }}">2014</a></li>
                                                 <li><a href="{{ route('public.matdas15') }}">2015</a></li>
+
 
                                               </ul>
 
@@ -137,6 +139,7 @@
                                               <ul class="tahunmatematikaIpa" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
+
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2009 378</a></li>
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2010 526</a></li>
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2011 523</a></li>
@@ -148,6 +151,7 @@
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2014 523</a></li>
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2015 519</a></li>
                                                 <li><a href="{{ route('public.matematikaipatahun') }}">MATIPA 2015 538</a></li>
+
                                               </ul>
 
                                           </div>
@@ -186,9 +190,17 @@
                                               <ul class="tahunfisika" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.fisikatahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.fisikatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.fisikatahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
@@ -220,9 +232,17 @@
                                               <ul class="tahunkimia scroll-menu" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.kimiatahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
@@ -243,6 +263,7 @@
                                               <ul class="tahunbiologi" >
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
+
                                                 <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2005 480</a></li>
                                                 <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2006 420</a></li>
                                                 <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2007 350</a></li>
@@ -250,6 +271,7 @@
                                                 <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2009 378</a></li>
                                                 <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2010 350</a></li>
                                                 <li><a href="{{ route('public.biologitahun') }}">BIOLOGI SBM 2013 131</a></li>
+
 
                                               </ul>
                                           </div>
@@ -281,9 +303,17 @@
                                               <ul class="tahuninggris scroll-menu">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.inggristahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
@@ -305,9 +335,17 @@
                                               <ul class="tahunindo">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.indonesiatahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">
@@ -329,9 +367,17 @@
                                               <ul class="tahuntpa">
                                                 <li >Berdasarkan Tahun</li>
                                                 <li class="divider"></li>
-                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2000</a></li>
-                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2001</a></li>
-                                                <li><a href="{{ route('public.tpatahun') }}">tahun 2002</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2005</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2006</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2007</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2008</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2009</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2010</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2011</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2012</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2013</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2014</a></li>
+                                                <li><a href="{{ route('public.matematikadasartahun') }}">tahun 2015</a></li>
                                               </ul>
                                           </div>
                                           <div class="col-md-6 scroll-menu">

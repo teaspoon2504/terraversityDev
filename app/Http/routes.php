@@ -119,13 +119,12 @@ Route::get('/biolgi/klasifikasimahlukhidup',                 ['as' => $s . 'klas
 
 
 
+
 Route::get('/panduan',                        ['as' => $s . 'panduan',   'uses' => 'PagesController@getPanduan']);
 Route::get('/faq',                            ['as' => $s . 'faq',   'uses' => 'PagesController@getFaq']);
 Route::get('/tentang-terraversity',           ['as' => $s . 'tentang',   'uses' => 'PagesController@getTentang']);
 Route::get('/voucher-input',                  ['as' => $s . 'voucher',   'uses' => 'PagesController@getVoucher']);
 Route::get('/info-dvd',                       ['as' => $s . 'infodvd',   'uses' => 'PagesController@getInfodvd']);
-
-
 
 $a = 'auth.';
 Route::get('/login',            ['as' => $a . 'login',          'uses' => 'Auth\AuthController@getLogin']);
