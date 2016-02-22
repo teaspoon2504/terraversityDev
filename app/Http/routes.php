@@ -160,10 +160,11 @@ Route::group(['middleware' => 'auth:all'], function()
 
 
 Route::get('admin/home',                    'AdminController@getHome');
-Route::get('admin/kupon/buat',              'KuponController@create');
+Route::get('admin/kupon/approve/{code}',    'KuponController@approve');
 Route::get('admin/subscribe/delete',        'KuponController@backToGuest');
 
 
+Route::post('user/kupon/request',           'KuponController@request');
 Route::post('user/kupon/subscribe',         'KuponController@subscribe');
 Route::get('user/materi',                   'UserController@getHome');
 Route::get('user/voucher',                  'UserController@getVoucher');
