@@ -91,15 +91,36 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         }
 
         // Bandingkan aktif timestamp < 30 hari
-        $selisihAktifasi = $kupon->activated_at->diffInDays(Carbon\Carbon::now());
-        if ($selisihAktifasi >= 0 && $selisihAktifasi <= 30) {
-            // Berlaku
-            return true;
-        } else if ($selisihAktifasi < 0) {
-            // Kupon belum aktif
+        $teraktifasi = $kupon->activated;
+        if ($teraktifasi) {
+            $selisihAktifasi = \Carbon\Carbon::now()->diffInDays(new \Carbon\Carbon($kupon->activated_at));
+
+            if ($selisihAktifasi < ($kupon->period * 30)) {
+                // Berlaku
+                return true;
+            } else {
+                // Kupon expired
+                return false;
+            }
+        } else {
             return false;
-        } else if ($selisihAktifasi > 30) {
-            // Kupon expired
+        }
+    }
+
+    public function getApprovedAttribute()
+    {
+        // Cari kupon untuk user ini
+        $kupon = \App\Kupon::whereUserId($this->id)->first();
+        if (!$kupon) {
+            // Kupon tidak ada
+            return false;
+        }
+
+        // Bandingkan aktif timestamp < 30 hari
+        $approved = $kupon->approved;
+        if ($approved) {
+            return true;
+        } else {
             return false;
         }
     }
