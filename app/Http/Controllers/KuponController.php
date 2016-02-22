@@ -24,25 +24,30 @@ class KuponController extends Controller
      *
      * @return Response
      */
-    public function create()
+    public function approve($code)
     {
-        $kupon=New \App\Kupon();
-        $kupon->kode=$this->generateRandomString(10); 
+        $kupon = \App\Kupon::whereKode($code)->first();
+        $kupon->approve();
+        return redirect('/admin/home');
+    }
+
+    public function request()
+    {
+        $user = \Auth::user();
+        $period = \Input::get('period');
+
+        if ($period != 1 and $period != 3) {
+            return -1; // Periode tidak cocok
+        }
+
+        $kupon = new \App\Kupon();
+        $kupon->kode = $this->generateRandomString(10);
+        $kupon->user_id = $user->id;
+        $kupon->period = $period;
         $kupon->save();
-        return view('panels.admin.home');
+
+        return view('panels.user.voucher', [ 'status' => true ]);
     }
-
-
-public function backToGuest(Request $request){
-
-    if($user->subscribed=1){
-        $user->subscribed=0;
-        $user->save();
-        return view('panels.admin.home');
-    }else{
-        return 'User Adalah Guest';
-    }
-}
 
 
 private function generateRandomString($length = 10) {
@@ -56,10 +61,11 @@ private function generateRandomString($length = 10) {
 }
 
 
- public function subscribe(Request $request){
+    public function subscribe(Request $request) {
         $kuponAkanAktif = \App\Kupon::Where('kode', $request->kode)->first();
         if ($kuponAkanAktif) {
-            $kuponAkanAktif->activated_at = Carbon\Carbon::now();
+            $kuponAkanAktif->activated = true;
+            $kuponAkanAktif->activated_at = \Carbon\Carbon::now();
             $kuponAkanAktif->save();
             return view('panels.user.voucher');
         } else {
