@@ -11,4 +11,18 @@ class Kupon extends Model
         return $this->hasOne('\App\Models\User', 'id', 'user_id');
     }
 
+    public function approve()
+    {
+        $this->approved = true;
+        $this->save();
+    }
+
+    public function activate()
+    {
+        if ($this->approved) {
+            $this->activated = true;
+            $this->activated_at = \Carbon\Carbon::now();
+            $this->save();
+        }
+    }
 }
