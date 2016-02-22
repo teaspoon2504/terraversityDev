@@ -15,11 +15,14 @@ class CreateKuponsTable extends Migration
        Schema::create('kupons', function (Blueprint $table) {
             $table->increments('id');
             $table->string('kode');
+            $table->integer('approved')->default(0);  // Voucher approved by admin
+            $table->integer('activated')->default(0);
+            $table->integer('period');
+            $table->dateTime('activated_at')->nullable();
 
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
 
-            $table->dateTime('activated_at');
             $table->timestamps();
         });
     }
