@@ -3,6 +3,9 @@
 $s = 'public.';
 Route::get('/',['as' => $s . 'home',   'uses' => 'PagesController@getHome']);
 
+// Subject
+Route::get('/matematika-dasar/{year}', 'MatematikaDasarController@getPageOnYear');
+
 // Matematika Dasar Per-Tahun
 Route::get('/matematikadasar/2009',  ['as' => $s . 'matdas09',   'uses' => 'MatematikaDasarController@getMatdas09']);
 Route::get('/matematikadasar/2010',  ['as' => $s . 'matdas10',   'uses' => 'MatematikaDasarController@getMatdas10']);

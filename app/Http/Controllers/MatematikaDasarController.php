@@ -9,6 +9,22 @@ use App\Http\Controllers\Controller;
 
 class MatematikaDasarController extends Controller
 {
+    public function userVoucherActivated()
+    {
+        $user = \Auth::user();
+        return $user->subscribed;
+    }
+
+    public function getPageOnYear($year)
+    {
+        if ($this->userVoucherActivated() && intval($year)) {
+            return view('pages.matematikadasar.tahun.' . $year);
+        } else {
+            dd("Please subscribe!");
+            // return view('please.subscribe.page');
+        }
+    }
+
   // Controller Per-Tahun
   public function getMatdas09()
   {
